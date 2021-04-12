@@ -1,0 +1,511 @@
+11-04-2021 17:08:37.382 [Gauge] [INFO] Watching directory: c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs
+11-04-2021 17:08:37.383 [Gauge] [DEBUG] Found 1 files
+11-04-2021 17:08:37.402 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-04-2021 17:08:37.412 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-04-2021 17:08:37.412 [Gauge] [DEBUG] Adding specs from c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
+11-04-2021 17:08:37.412 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-04-2021 17:08:37.523 [Gauge] [INFO] Starting language runner
+11-04-2021 17:08:38.194 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-04-2021 17:08:38.194 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+11-04-2021 17:08:38.199 [java] [DEBUG] JAVA_HOME: 
+11-04-2021 17:08:38.199 [java] [DEBUG] gauge_project_root: c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+11-04-2021 17:08:38.199 [java] [DEBUG] gauge_parallel_streams_count: 
+11-04-2021 17:08:38.199 [java] [DEBUG] gauge_reports_dir: reports
+11-04-2021 17:08:38.199 [java] [DEBUG] overwrite_reports: true
+11-04-2021 17:08:38.200 [java] [DEBUG] logs_directory: logs
+11-04-2021 17:08:38.200 [java] [DEBUG] enable_multithreading: false
+11-04-2021 17:08:38.200 [java] [DEBUG] gauge_specs_dir: specs
+11-04-2021 17:08:38.200 [java] [DEBUG] csv_delimiter: ,
+11-04-2021 17:08:38.200 [java] [DEBUG] gauge_java_home: 
+11-04-2021 17:08:38.200 [java] [DEBUG] gauge_custom_build_path: 
+11-04-2021 17:08:38.200 [java] [DEBUG] gauge_additional_libs: libs/*
+11-04-2021 17:08:38.200 [java] [DEBUG] gauge_jvm_args: 
+11-04-2021 17:08:38.200 [java] [DEBUG] gauge_custom_compile_dir: 
+11-04-2021 17:08:38.200 [java] [DEBUG] gauge_clear_state_level: scenario
+11-04-2021 17:08:38.200 [java] [DEBUG] ***** END *****
+11-04-2021 17:08:38.271 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+11-04-2021 17:08:38.271 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+11-04-2021 17:08:38.299 [java] [DEBUG] running - javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\SERGIO~1\AppData\Local\Temp\gauge_temp586646115\52fdfc072182654f163f5f0f9a621d72]
+11-04-2021 17:08:38.301 [java] [DEBUG] stdout/stderr is logged to logs\27128-javac.exe.out
+11-04-2021 17:08:42.326 [java] [ERROR] src\test\java\driver\Driver.java:5: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:42.391 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:08:42.391 [java] [ERROR] ^
+11-04-2021 17:08:42.391 [java] [ERROR] src\test\java\driver\Driver.java:10: error: cannot find symbol
+11-04-2021 17:08:42.391 [java] [ERROR] public static WebDriver webDriver;
+11-04-2021 17:08:42.391 [java] [ERROR] ^
+11-04-2021 17:08:42.392 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:08:42.392 [java] [ERROR] location: class Driver
+11-04-2021 17:08:42.487 [java] [ERROR] src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+11-04-2021 17:08:42.487 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+11-04-2021 17:08:42.487 [java] [ERROR] ^
+11-04-2021 17:08:42.487 [java] [ERROR] src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:42.487 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:08:42.487 [java] [ERROR] ^
+11-04-2021 17:08:42.487 [java] [ERROR] src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:08:42.487 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+11-04-2021 17:08:42.487 [java] [ERROR] ^
+11-04-2021 17:08:42.529 [java] [ERROR] src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+11-04-2021 17:08:42.529 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+11-04-2021 17:08:42.529 [java] [ERROR] ^
+11-04-2021 17:08:42.529 [java] [ERROR] src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+11-04-2021 17:08:42.529 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+11-04-2021 17:08:42.529 [java] [ERROR] ^
+11-04-2021 17:08:42.643 [java] [ERROR] src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:08:42.643 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+11-04-2021 17:08:42.643 [java] [ERROR] ^
+11-04-2021 17:08:42.643 [java] [ERROR] src\test\java\driver\DriverFactory.java:15: error: cannot find symbol
+11-04-2021 17:08:42.643 [java] [ERROR] public static WebDriver getDriver() {
+11-04-2021 17:08:42.643 [java] [ERROR] ^
+11-04-2021 17:08:42.648 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:08:42.648 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:42.648 [java] [ERROR] src\test\java\org\example\TestImplementation.java:4: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:42.648 [java] [ERROR] import org.openqa.selenium.By;
+11-04-2021 17:08:42.648 [java] [ERROR] ^
+11-04-2021 17:08:42.648 [java] [ERROR] src\test\java\org\example\TestImplementation.java:5: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:42.648 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:08:42.648 [java] [ERROR] ^
+11-04-2021 17:08:42.648 [java] [ERROR] src\test\java\org\example\TestImplementation.java:6: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:42.648 [java] [ERROR] import org.openqa.selenium.WebElement;
+11-04-2021 17:08:42.648 [java] [ERROR] ^
+11-04-2021 17:08:42.648 [java] [ERROR] src\test\java\org\example\TestImplementation.java:7: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:08:42.648 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+11-04-2021 17:08:42.648 [java] [ERROR] ^
+11-04-2021 17:08:42.860 [java] [ERROR] src\test\java\org\example\TestImplementation.java:13: error: cannot find symbol
+11-04-2021 17:08:42.860 [java] [ERROR] WebDriver driver = new ChromeDriver();
+11-04-2021 17:08:42.860 [java] [ERROR] ^
+11-04-2021 17:08:42.860 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:08:42.860 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.010 [java] [ERROR] src\test\java\driver\DriverFactory.java:22: error: cannot find symbol
+11-04-2021 17:08:43.011 [java] [ERROR] WebDriverManager.iedriver().setup();
+11-04-2021 17:08:43.011 [java] [ERROR] ^
+11-04-2021 17:08:43.011 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:08:43.011 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.011 [java] [ERROR] src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+11-04-2021 17:08:43.011 [java] [ERROR] return new InternetExplorerDriver();
+11-04-2021 17:08:43.011 [java] [ERROR] ^
+11-04-2021 17:08:43.011 [java] [ERROR] symbol:   class InternetExplorerDriver
+11-04-2021 17:08:43.011 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.011 [java] [ERROR] src\test\java\driver\DriverFactory.java:25: error: cannot find symbol
+11-04-2021 17:08:43.011 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+11-04-2021 17:08:43.011 [java] [ERROR] ^
+11-04-2021 17:08:43.011 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:08:43.011 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.011 [java] [ERROR] src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+11-04-2021 17:08:43.011 [java] [ERROR] return new FirefoxDriver();
+11-04-2021 17:08:43.011 [java] [ERROR] ^
+11-04-2021 17:08:43.011 [java] [ERROR] symbol:   class FirefoxDriver
+11-04-2021 17:08:43.011 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.011 [java] [ERROR] src\test\java\driver\DriverFactory.java:29: error: cannot find symbol
+11-04-2021 17:08:43.011 [java] [ERROR] WebDriverManager.chromedriver().setup();
+11-04-2021 17:08:43.011 [java] [ERROR] ^
+11-04-2021 17:08:43.011 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:08:43.011 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.011 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+11-04-2021 17:08:43.011 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+11-04-2021 17:08:43.011 [java] [ERROR] 	            ^
+11-04-2021 17:08:43.011 [java] [ERROR] symbol:   class ChromeOptions
+11-04-2021 17:08:43.078 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.078 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+11-04-2021 17:08:43.078 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+11-04-2021 17:08:43.078 [java] [ERROR] 	                                        ^
+11-04-2021 17:08:43.078 [java] [ERROR] symbol:   class ChromeOptions
+11-04-2021 17:08:43.078 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.078 [java] [ERROR] src\test\java\driver\DriverFactory.java:37: error: cannot find symbol
+11-04-2021 17:08:43.078 [java] [ERROR] 	            return new ChromeDriver(options);
+11-04-2021 17:08:43.078 [java] [ERROR] 	                       ^
+11-04-2021 17:08:43.078 [java] [ERROR] symbol:   class ChromeDriver
+11-04-2021 17:08:43.078 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:43.078 [java] [ERROR] src\test\java\org\example\TestImplementation.java:13: error: cannot find symbol
+11-04-2021 17:08:43.078 [java] [ERROR] WebDriver driver = new ChromeDriver();
+11-04-2021 17:08:43.078 [java] [ERROR] ^
+11-04-2021 17:08:43.078 [java] [ERROR] symbol:   class ChromeDriver
+11-04-2021 17:08:43.078 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.078 [java] [ERROR] src\test\java\org\example\TestImplementation.java:24: error: cannot find symbol
+11-04-2021 17:08:43.078 [java] [ERROR] WebElement clickCookingButton = driver.findElement(By.xpath("//button[normalize-space()='I accept']"));
+11-04-2021 17:08:43.078 [java] [ERROR] ^
+11-04-2021 17:08:43.078 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:43.078 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.079 [java] [ERROR] src\test\java\org\example\TestImplementation.java:24: error: cannot find symbol
+11-04-2021 17:08:43.079 [java] [ERROR] WebElement clickCookingButton = driver.findElement(By.xpath("//button[normalize-space()='I accept']"));
+11-04-2021 17:08:43.079 [java] [ERROR] ^
+11-04-2021 17:08:43.079 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:43.079 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.079 [java] [ERROR] src\test\java\org\example\TestImplementation.java:30: error: cannot find symbol
+11-04-2021 17:08:43.079 [java] [ERROR] WebElement searchBox = driver.findElement(By.name("Keywords"));
+11-04-2021 17:08:43.079 [java] [ERROR] ^
+11-04-2021 17:08:43.079 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:43.079 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.079 [java] [ERROR] src\test\java\org\example\TestImplementation.java:30: error: cannot find symbol
+11-04-2021 17:08:43.079 [java] [ERROR] WebElement searchBox = driver.findElement(By.name("Keywords"));
+11-04-2021 17:08:43.079 [java] [ERROR] ^
+11-04-2021 17:08:43.079 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:43.079 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.079 [java] [ERROR] src\test\java\org\example\TestImplementation.java:36: error: cannot find symbol
+11-04-2021 17:08:43.079 [java] [ERROR] WebElement clickButton = driver.findElement(By.id("btnSubmit"));
+11-04-2021 17:08:43.079 [java] [ERROR] ^
+11-04-2021 17:08:43.079 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:43.079 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.079 [java] [ERROR] src\test\java\org\example\TestImplementation.java:36: error: cannot find symbol
+11-04-2021 17:08:43.079 [java] [ERROR] WebElement clickButton = driver.findElement(By.id("btnSubmit"));
+11-04-2021 17:08:43.079 [java] [ERROR] ^
+11-04-2021 17:08:43.079 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:43.079 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.079 [java] [ERROR] src\test\java\org\example\TestImplementation.java:42: error: cannot find symbol
+11-04-2021 17:08:43.079 [java] [ERROR] List<WebElement> CountTheElement = driver.findElements(By.linkText("HSE (HEALTH SERVICES EXECUTIVE)"));
+11-04-2021 17:08:43.079 [java] [ERROR] ^
+11-04-2021 17:08:43.079 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:43.079 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.079 [java] [ERROR] src\test\java\org\example\TestImplementation.java:42: error: cannot find symbol
+11-04-2021 17:08:43.079 [java] [ERROR] List<WebElement> CountTheElement = driver.findElements(By.linkText("HSE (HEALTH SERVICES EXECUTIVE)"));
+11-04-2021 17:08:43.079 [java] [ERROR] ^
+11-04-2021 17:08:43.079 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:43.079 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:43.184 [java] [ERROR] 31 errors
+11-04-2021 17:08:43.635 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+11-04-2021 17:08:43.635 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+11-04-2021 17:08:43.636 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-04-2021 17:08:43.688 [Gauge] [INFO] Connection closed
+11-04-2021 17:08:43.688 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+11-04-2021 17:08:48.692 [Gauge] [INFO] Watching directory: c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs
+11-04-2021 17:08:48.738 [Gauge] [DEBUG] Found 1 files
+11-04-2021 17:08:48.739 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-04-2021 17:08:48.760 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-04-2021 17:08:48.760 [Gauge] [DEBUG] Adding specs from c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
+11-04-2021 17:08:48.760 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-04-2021 17:08:48.763 [Gauge] [INFO] Starting language runner
+11-04-2021 17:08:49.273 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-04-2021 17:08:49.274 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+11-04-2021 17:08:49.274 [java] [DEBUG] JAVA_HOME: 
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_project_root: c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_parallel_streams_count: 
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_reports_dir: reports
+11-04-2021 17:08:49.274 [java] [DEBUG] overwrite_reports: true
+11-04-2021 17:08:49.274 [java] [DEBUG] logs_directory: logs
+11-04-2021 17:08:49.274 [java] [DEBUG] enable_multithreading: false
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_specs_dir: specs
+11-04-2021 17:08:49.274 [java] [DEBUG] csv_delimiter: ,
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_java_home: 
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_custom_build_path: 
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_additional_libs: libs/*
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_jvm_args: 
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_custom_compile_dir: 
+11-04-2021 17:08:49.274 [java] [DEBUG] gauge_clear_state_level: scenario
+11-04-2021 17:08:49.274 [java] [DEBUG] ***** END *****
+11-04-2021 17:08:49.331 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+11-04-2021 17:08:49.331 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+11-04-2021 17:08:49.377 [java] [DEBUG] running - javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\SERGIO~1\AppData\Local\Temp\gauge_temp461578015\52fdfc072182654f163f5f0f9a621d72]
+11-04-2021 17:08:49.377 [java] [DEBUG] stdout/stderr is logged to logs\29912-javac.exe.out
+11-04-2021 17:08:53.741 [java] [ERROR] src\test\java\driver\Driver.java:5: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:53.741 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:08:53.741 [java] [ERROR] ^
+11-04-2021 17:08:53.870 [java] [ERROR] src\test\java\driver\Driver.java:10: error: cannot find symbol
+11-04-2021 17:08:53.870 [java] [ERROR] public static WebDriver webDriver;
+11-04-2021 17:08:53.871 [java] [ERROR] ^
+11-04-2021 17:08:53.871 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:08:53.871 [java] [ERROR] location: class Driver
+11-04-2021 17:08:53.897 [java] [ERROR] src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+11-04-2021 17:08:53.897 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+11-04-2021 17:08:53.897 [java] [ERROR] ^
+11-04-2021 17:08:53.897 [java] [ERROR] src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:53.897 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:08:53.897 [java] [ERROR] ^
+11-04-2021 17:08:53.929 [java] [ERROR] src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:08:53.929 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+11-04-2021 17:08:53.929 [java] [ERROR] ^
+11-04-2021 17:08:53.972 [java] [ERROR] src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+11-04-2021 17:08:53.972 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+11-04-2021 17:08:53.972 [java] [ERROR] ^
+11-04-2021 17:08:54.001 [java] [ERROR] src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+11-04-2021 17:08:54.001 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+11-04-2021 17:08:54.001 [java] [ERROR] ^
+11-04-2021 17:08:54.001 [java] [ERROR] src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:08:54.001 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+11-04-2021 17:08:54.001 [java] [ERROR] ^
+11-04-2021 17:08:54.026 [java] [ERROR] src\test\java\driver\DriverFactory.java:15: error: cannot find symbol
+11-04-2021 17:08:54.029 [java] [ERROR] public static WebDriver getDriver() {
+11-04-2021 17:08:54.029 [java] [ERROR] ^
+11-04-2021 17:08:54.029 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:08:54.029 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.029 [java] [ERROR] src\test\java\org\example\TestImplementation.java:4: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:54.029 [java] [ERROR] import org.openqa.selenium.By;
+11-04-2021 17:08:54.029 [java] [ERROR] ^
+11-04-2021 17:08:54.029 [java] [ERROR] src\test\java\org\example\TestImplementation.java:5: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:54.029 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:08:54.029 [java] [ERROR] ^
+11-04-2021 17:08:54.029 [java] [ERROR] src\test\java\org\example\TestImplementation.java:6: error: package org.openqa.selenium does not exist
+11-04-2021 17:08:54.029 [java] [ERROR] import org.openqa.selenium.WebElement;
+11-04-2021 17:08:54.029 [java] [ERROR] ^
+11-04-2021 17:08:54.101 [java] [ERROR] src\test\java\org\example\TestImplementation.java:7: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:08:54.101 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+11-04-2021 17:08:54.101 [java] [ERROR] ^
+11-04-2021 17:08:54.179 [java] [ERROR] src\test\java\org\example\TestImplementation.java:13: error: cannot find symbol
+11-04-2021 17:08:54.179 [java] [ERROR] WebDriver driver = new ChromeDriver();
+11-04-2021 17:08:54.179 [java] [ERROR] ^
+11-04-2021 17:08:54.179 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:08:54.179 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.285 [java] [ERROR] src\test\java\driver\DriverFactory.java:22: error: cannot find symbol
+11-04-2021 17:08:54.285 [java] [ERROR] WebDriverManager.iedriver().setup();
+11-04-2021 17:08:54.285 [java] [ERROR] ^
+11-04-2021 17:08:54.285 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:08:54.285 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.285 [java] [ERROR] src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+11-04-2021 17:08:54.285 [java] [ERROR] return new InternetExplorerDriver();
+11-04-2021 17:08:54.285 [java] [ERROR] ^
+11-04-2021 17:08:54.285 [java] [ERROR] symbol:   class InternetExplorerDriver
+11-04-2021 17:08:54.285 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.285 [java] [ERROR] src\test\java\driver\DriverFactory.java:25: error: cannot find symbol
+11-04-2021 17:08:54.285 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+11-04-2021 17:08:54.285 [java] [ERROR] ^
+11-04-2021 17:08:54.285 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:08:54.285 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.285 [java] [ERROR] src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+11-04-2021 17:08:54.285 [java] [ERROR] return new FirefoxDriver();
+11-04-2021 17:08:54.285 [java] [ERROR] ^
+11-04-2021 17:08:54.285 [java] [ERROR] symbol:   class FirefoxDriver
+11-04-2021 17:08:54.285 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.285 [java] [ERROR] src\test\java\driver\DriverFactory.java:29: error: cannot find symbol
+11-04-2021 17:08:54.285 [java] [ERROR] WebDriverManager.chromedriver().setup();
+11-04-2021 17:08:54.285 [java] [ERROR] ^
+11-04-2021 17:08:54.285 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:08:54.285 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.285 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+11-04-2021 17:08:54.285 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+11-04-2021 17:08:54.286 [java] [ERROR] 	            ^
+11-04-2021 17:08:54.286 [java] [ERROR] symbol:   class ChromeOptions
+11-04-2021 17:08:54.286 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.286 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+11-04-2021 17:08:54.286 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+11-04-2021 17:08:54.286 [java] [ERROR] 	                                        ^
+11-04-2021 17:08:54.286 [java] [ERROR] symbol:   class ChromeOptions
+11-04-2021 17:08:54.286 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.337 [java] [ERROR] src\test\java\driver\DriverFactory.java:37: error: cannot find symbol
+11-04-2021 17:08:54.337 [java] [ERROR] 	            return new ChromeDriver(options);
+11-04-2021 17:08:54.337 [java] [ERROR] 	                       ^
+11-04-2021 17:08:54.337 [java] [ERROR] symbol:   class ChromeDriver
+11-04-2021 17:08:54.337 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:08:54.337 [java] [ERROR] src\test\java\org\example\TestImplementation.java:13: error: cannot find symbol
+11-04-2021 17:08:54.337 [java] [ERROR] WebDriver driver = new ChromeDriver();
+11-04-2021 17:08:54.337 [java] [ERROR] ^
+11-04-2021 17:08:54.337 [java] [ERROR] symbol:   class ChromeDriver
+11-04-2021 17:08:54.337 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.337 [java] [ERROR] src\test\java\org\example\TestImplementation.java:24: error: cannot find symbol
+11-04-2021 17:08:54.337 [java] [ERROR] WebElement clickCookingButton = driver.findElement(By.xpath("//button[normalize-space()='I accept']"));
+11-04-2021 17:08:54.337 [java] [ERROR] ^
+11-04-2021 17:08:54.337 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:54.337 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.337 [java] [ERROR] src\test\java\org\example\TestImplementation.java:24: error: cannot find symbol
+11-04-2021 17:08:54.337 [java] [ERROR] WebElement clickCookingButton = driver.findElement(By.xpath("//button[normalize-space()='I accept']"));
+11-04-2021 17:08:54.337 [java] [ERROR] ^
+11-04-2021 17:08:54.337 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:54.337 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.337 [java] [ERROR] src\test\java\org\example\TestImplementation.java:30: error: cannot find symbol
+11-04-2021 17:08:54.337 [java] [ERROR] WebElement searchBox = driver.findElement(By.name("Keywords"));
+11-04-2021 17:08:54.337 [java] [ERROR] ^
+11-04-2021 17:08:54.337 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:54.337 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.337 [java] [ERROR] src\test\java\org\example\TestImplementation.java:30: error: cannot find symbol
+11-04-2021 17:08:54.338 [java] [ERROR] WebElement searchBox = driver.findElement(By.name("Keywords"));
+11-04-2021 17:08:54.338 [java] [ERROR] ^
+11-04-2021 17:08:54.338 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:54.338 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.338 [java] [ERROR] src\test\java\org\example\TestImplementation.java:36: error: cannot find symbol
+11-04-2021 17:08:54.338 [java] [ERROR] WebElement clickButton = driver.findElement(By.id("btnSubmit"));
+11-04-2021 17:08:54.338 [java] [ERROR] ^
+11-04-2021 17:08:54.338 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:54.338 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.338 [java] [ERROR] src\test\java\org\example\TestImplementation.java:36: error: cannot find symbol
+11-04-2021 17:08:54.338 [java] [ERROR] WebElement clickButton = driver.findElement(By.id("btnSubmit"));
+11-04-2021 17:08:54.338 [java] [ERROR] ^
+11-04-2021 17:08:54.338 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:54.338 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.338 [java] [ERROR] src\test\java\org\example\TestImplementation.java:42: error: cannot find symbol
+11-04-2021 17:08:54.338 [java] [ERROR] List<WebElement> CountTheElement = driver.findElements(By.linkText("HSE (HEALTH SERVICES EXECUTIVE)"));
+11-04-2021 17:08:54.338 [java] [ERROR] ^
+11-04-2021 17:08:54.338 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:08:54.338 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.338 [java] [ERROR] src\test\java\org\example\TestImplementation.java:42: error: cannot find symbol
+11-04-2021 17:08:54.338 [java] [ERROR] List<WebElement> CountTheElement = driver.findElements(By.linkText("HSE (HEALTH SERVICES EXECUTIVE)"));
+11-04-2021 17:08:54.338 [java] [ERROR] ^
+11-04-2021 17:08:54.338 [java] [ERROR] symbol:   variable By
+11-04-2021 17:08:54.338 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:08:54.400 [java] [ERROR] 31 errors
+11-04-2021 17:08:54.569 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+11-04-2021 17:08:54.570 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+11-04-2021 17:08:54.570 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-04-2021 17:08:54.603 [Gauge] [INFO] Connection closed
+11-04-2021 17:08:54.603 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+11-04-2021 17:09:30.345 [Gauge] [INFO] Watching directory: c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs
+11-04-2021 17:09:30.371 [Gauge] [DEBUG] Found 1 files
+11-04-2021 17:09:30.380 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-04-2021 17:09:30.382 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-04-2021 17:09:30.382 [Gauge] [DEBUG] Adding specs from c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
+11-04-2021 17:09:30.382 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-04-2021 17:09:30.384 [Gauge] [INFO] Starting language runner
+11-04-2021 17:09:30.663 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-04-2021 17:09:30.664 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+11-04-2021 17:09:30.664 [java] [DEBUG] JAVA_HOME: 
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_project_root: c:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_parallel_streams_count: 
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_reports_dir: reports
+11-04-2021 17:09:30.664 [java] [DEBUG] overwrite_reports: true
+11-04-2021 17:09:30.664 [java] [DEBUG] logs_directory: logs
+11-04-2021 17:09:30.664 [java] [DEBUG] enable_multithreading: false
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_specs_dir: specs
+11-04-2021 17:09:30.664 [java] [DEBUG] csv_delimiter: ,
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_java_home: 
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_custom_build_path: 
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_additional_libs: libs/*
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_jvm_args: 
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_custom_compile_dir: 
+11-04-2021 17:09:30.664 [java] [DEBUG] gauge_clear_state_level: scenario
+11-04-2021 17:09:30.664 [java] [DEBUG] ***** END *****
+11-04-2021 17:09:30.823 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+11-04-2021 17:09:30.824 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+11-04-2021 17:09:30.882 [java] [DEBUG] running - javac.exe [-encoding UTF-8 -d gauge_bin @C:\Users\SERGIO~1\AppData\Local\Temp\gauge_temp561602923\52fdfc072182654f163f5f0f9a621d72]
+11-04-2021 17:09:30.882 [java] [DEBUG] stdout/stderr is logged to logs\6096-javac.exe.out
+11-04-2021 17:09:35.268 [java] [ERROR] src\test\java\driver\Driver.java:5: error: package org.openqa.selenium does not exist
+11-04-2021 17:09:35.268 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:09:35.268 [java] [ERROR] ^
+11-04-2021 17:09:35.329 [java] [ERROR] src\test\java\driver\Driver.java:10: error: cannot find symbol
+11-04-2021 17:09:35.329 [java] [ERROR] public static WebDriver webDriver;
+11-04-2021 17:09:35.329 [java] [ERROR] ^
+11-04-2021 17:09:35.329 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:09:35.329 [java] [ERROR] location: class Driver
+11-04-2021 17:09:35.436 [java] [ERROR] src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+11-04-2021 17:09:35.436 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+11-04-2021 17:09:35.436 [java] [ERROR] ^
+11-04-2021 17:09:35.436 [java] [ERROR] src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+11-04-2021 17:09:35.436 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:09:35.436 [java] [ERROR] ^
+11-04-2021 17:09:35.447 [java] [ERROR] src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:09:35.447 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+11-04-2021 17:09:35.447 [java] [ERROR] ^
+11-04-2021 17:09:35.447 [java] [ERROR] src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+11-04-2021 17:09:35.447 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+11-04-2021 17:09:35.447 [java] [ERROR] ^
+11-04-2021 17:09:35.471 [java] [ERROR] src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+11-04-2021 17:09:35.471 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+11-04-2021 17:09:35.471 [java] [ERROR] ^
+11-04-2021 17:09:35.481 [java] [ERROR] src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:09:35.481 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+11-04-2021 17:09:35.481 [java] [ERROR] ^
+11-04-2021 17:09:35.481 [java] [ERROR] src\test\java\driver\DriverFactory.java:15: error: cannot find symbol
+11-04-2021 17:09:35.481 [java] [ERROR] public static WebDriver getDriver() {
+11-04-2021 17:09:35.481 [java] [ERROR] ^
+11-04-2021 17:09:35.481 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:09:35.481 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.481 [java] [ERROR] src\test\java\org\example\TestImplementation.java:4: error: package org.openqa.selenium does not exist
+11-04-2021 17:09:35.481 [java] [ERROR] import org.openqa.selenium.By;
+11-04-2021 17:09:35.481 [java] [ERROR] ^
+11-04-2021 17:09:35.501 [java] [ERROR] src\test\java\org\example\TestImplementation.java:5: error: package org.openqa.selenium does not exist
+11-04-2021 17:09:35.501 [java] [ERROR] import org.openqa.selenium.WebDriver;
+11-04-2021 17:09:35.501 [java] [ERROR] ^
+11-04-2021 17:09:35.552 [java] [ERROR] src\test\java\org\example\TestImplementation.java:6: error: package org.openqa.selenium does not exist
+11-04-2021 17:09:35.552 [java] [ERROR] import org.openqa.selenium.WebElement;
+11-04-2021 17:09:35.552 [java] [ERROR] ^
+11-04-2021 17:09:35.552 [java] [ERROR] src\test\java\org\example\TestImplementation.java:7: error: package org.openqa.selenium.chrome does not exist
+11-04-2021 17:09:35.552 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+11-04-2021 17:09:35.552 [java] [ERROR] ^
+11-04-2021 17:09:35.599 [java] [ERROR] src\test\java\org\example\TestImplementation.java:13: error: cannot find symbol
+11-04-2021 17:09:35.599 [java] [ERROR] WebDriver driver = new ChromeDriver();
+11-04-2021 17:09:35.599 [java] [ERROR] ^
+11-04-2021 17:09:35.599 [java] [ERROR] symbol:   class WebDriver
+11-04-2021 17:09:35.599 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.718 [java] [ERROR] src\test\java\driver\DriverFactory.java:22: error: cannot find symbol
+11-04-2021 17:09:35.718 [java] [ERROR] WebDriverManager.iedriver().setup();
+11-04-2021 17:09:35.718 [java] [ERROR] ^
+11-04-2021 17:09:35.718 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:09:35.718 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.718 [java] [ERROR] src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+11-04-2021 17:09:35.718 [java] [ERROR] return new InternetExplorerDriver();
+11-04-2021 17:09:35.718 [java] [ERROR] ^
+11-04-2021 17:09:35.718 [java] [ERROR] symbol:   class InternetExplorerDriver
+11-04-2021 17:09:35.718 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.742 [java] [ERROR] src\test\java\driver\DriverFactory.java:25: error: cannot find symbol
+11-04-2021 17:09:35.742 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+11-04-2021 17:09:35.742 [java] [ERROR] ^
+11-04-2021 17:09:35.742 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:09:35.742 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.742 [java] [ERROR] src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+11-04-2021 17:09:35.742 [java] [ERROR] return new FirefoxDriver();
+11-04-2021 17:09:35.742 [java] [ERROR] ^
+11-04-2021 17:09:35.743 [java] [ERROR] symbol:   class FirefoxDriver
+11-04-2021 17:09:35.743 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.743 [java] [ERROR] src\test\java\driver\DriverFactory.java:29: error: cannot find symbol
+11-04-2021 17:09:35.743 [java] [ERROR] WebDriverManager.chromedriver().setup();
+11-04-2021 17:09:35.743 [java] [ERROR] ^
+11-04-2021 17:09:35.743 [java] [ERROR] symbol:   variable WebDriverManager
+11-04-2021 17:09:35.743 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.743 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+11-04-2021 17:09:35.743 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+11-04-2021 17:09:35.743 [java] [ERROR] 	            ^
+11-04-2021 17:09:35.743 [java] [ERROR] symbol:   class ChromeOptions
+11-04-2021 17:09:35.743 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.743 [java] [ERROR] src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+11-04-2021 17:09:35.743 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+11-04-2021 17:09:35.743 [java] [ERROR] 	                                        ^
+11-04-2021 17:09:35.743 [java] [ERROR] symbol:   class ChromeOptions
+11-04-2021 17:09:35.743 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.771 [java] [ERROR] src\test\java\driver\DriverFactory.java:37: error: cannot find symbol
+11-04-2021 17:09:35.771 [java] [ERROR] 	            return new ChromeDriver(options);
+11-04-2021 17:09:35.771 [java] [ERROR] 	                       ^
+11-04-2021 17:09:35.771 [java] [ERROR] symbol:   class ChromeDriver
+11-04-2021 17:09:35.771 [java] [ERROR] location: class DriverFactory
+11-04-2021 17:09:35.771 [java] [ERROR] src\test\java\org\example\TestImplementation.java:13: error: cannot find symbol
+11-04-2021 17:09:35.771 [java] [ERROR] WebDriver driver = new ChromeDriver();
+11-04-2021 17:09:35.771 [java] [ERROR] ^
+11-04-2021 17:09:35.771 [java] [ERROR] symbol:   class ChromeDriver
+11-04-2021 17:09:35.771 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.771 [java] [ERROR] src\test\java\org\example\TestImplementation.java:24: error: cannot find symbol
+11-04-2021 17:09:35.771 [java] [ERROR] WebElement clickCookingButton = driver.findElement(By.xpath("//button[normalize-space()='I accept']"));
+11-04-2021 17:09:35.771 [java] [ERROR] ^
+11-04-2021 17:09:35.771 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:09:35.771 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.771 [java] [ERROR] src\test\java\org\example\TestImplementation.java:24: error: cannot find symbol
+11-04-2021 17:09:35.771 [java] [ERROR] WebElement clickCookingButton = driver.findElement(By.xpath("//button[normalize-space()='I accept']"));
+11-04-2021 17:09:35.771 [java] [ERROR] ^
+11-04-2021 17:09:35.771 [java] [ERROR] symbol:   variable By
+11-04-2021 17:09:35.771 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.771 [java] [ERROR] src\test\java\org\example\TestImplementation.java:30: error: cannot find symbol
+11-04-2021 17:09:35.771 [java] [ERROR] WebElement searchBox = driver.findElement(By.name("Keywords"));
+11-04-2021 17:09:35.771 [java] [ERROR] ^
+11-04-2021 17:09:35.772 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:09:35.772 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.772 [java] [ERROR] src\test\java\org\example\TestImplementation.java:30: error: cannot find symbol
+11-04-2021 17:09:35.772 [java] [ERROR] WebElement searchBox = driver.findElement(By.name("Keywords"));
+11-04-2021 17:09:35.772 [java] [ERROR] ^
+11-04-2021 17:09:35.772 [java] [ERROR] symbol:   variable By
+11-04-2021 17:09:35.772 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.772 [java] [ERROR] src\test\java\org\example\TestImplementation.java:36: error: cannot find symbol
+11-04-2021 17:09:35.772 [java] [ERROR] WebElement clickButton = driver.findElement(By.id("btnSubmit"));
+11-04-2021 17:09:35.773 [java] [ERROR] ^
+11-04-2021 17:09:35.773 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:09:35.773 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.773 [java] [ERROR] src\test\java\org\example\TestImplementation.java:36: error: cannot find symbol
+11-04-2021 17:09:35.773 [java] [ERROR] WebElement clickButton = driver.findElement(By.id("btnSubmit"));
+11-04-2021 17:09:35.774 [java] [ERROR] ^
+11-04-2021 17:09:35.774 [java] [ERROR] symbol:   variable By
+11-04-2021 17:09:35.774 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.791 [java] [ERROR] src\test\java\org\example\TestImplementation.java:42: error: cannot find symbol
+11-04-2021 17:09:35.791 [java] [ERROR] List<WebElement> CountTheElement = driver.findElements(By.linkText("HSE (HEALTH SERVICES EXECUTIVE)"));
+11-04-2021 17:09:35.795 [java] [ERROR] ^
+11-04-2021 17:09:35.795 [java] [ERROR] symbol:   class WebElement
+11-04-2021 17:09:35.796 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.796 [java] [ERROR] src\test\java\org\example\TestImplementation.java:42: error: cannot find symbol
+11-04-2021 17:09:35.796 [java] [ERROR] List<WebElement> CountTheElement = driver.findElements(By.linkText("HSE (HEALTH SERVICES EXECUTIVE)"));
+11-04-2021 17:09:35.796 [java] [ERROR] ^
+11-04-2021 17:09:35.796 [java] [ERROR] symbol:   variable By
+11-04-2021 17:09:35.796 [java] [ERROR] location: class TestImplementation
+11-04-2021 17:09:35.796 [java] [ERROR] 31 errors
+11-04-2021 17:09:35.974 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+11-04-2021 17:09:35.974 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+11-04-2021 17:09:35.987 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-04-2021 17:09:36.225 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+11-04-2021 17:10:12.258 [Gauge] [INFO] Connection closed
+11-04-2021 17:10:12.277 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed

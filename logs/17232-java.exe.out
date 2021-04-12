@@ -1,0 +1,79 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 4207milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4207"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61233"}
+{"logLevel":"info","message":"Listening on port:61233"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation1' and 'org.example.TestImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found NavigateUrl {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation5' and 'org.example.TestImplementation.implementation5'"}
+{"logLevel":"debug","message":"Found NumberOfElementInThePage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation4' and 'org.example.TestImplementation.implementation4'"}
+{"logLevel":"debug","message":"Found ClickIntheSearchButton in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation3' and 'org.example.TestImplementation.implementation3'"}
+{"logLevel":"debug","message":"Found Search the job in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation2' and 'org.example.TestImplementation.implementation2'"}
+{"logLevel":"debug","message":"Found AcceptCooking in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation7' and 'org.example.TestImplementation.implementation7'"}
+{"logLevel":"debug","message":"Found SeekQASpecialistJonQuantity in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation6' and 'org.example.TestImplementation.implementation6'"}
+{"logLevel":"debug","message":"Found BackHomePage in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tNavigateUrl {} : public void implementation1(Object arg0)"}
+{"logLevel":"debug","message":"\tClickIntheSearchButton : public void implementation4()"}
+{"logLevel":"debug","message":"\tSearch the job : public void implementation3()"}
+{"logLevel":"debug","message":"\tNumberOfElementInThePage : public void implementation5()"}
+{"logLevel":"debug","message":"\tBackHomePage : public void implementation6()"}
+{"logLevel":"debug","message":"\tAcceptCooking : public void implementation2()"}
+{"logLevel":"debug","message":"\tSeekQASpecialistJonQuantity : public void implementation7()"}
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 8801
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 11, 2021 6:09:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.implementation1"}
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 45959
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 11, 2021 6:09:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'AcceptCooking' using 'class org.example.TestImplementation.implementation2"}
+{"logLevel":"debug","message":"Executing 'Search the job' using 'class org.example.TestImplementation.implementation3"}
+{"logLevel":"debug","message":"Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.implementation4"}
+{"logLevel":"debug","message":"Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.implementation5"}
+Total of JOB with the same atribute are: 25
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+{"logLevel":"debug","message":"Executing 'BackHomePage' using 'class org.example.TestImplementation.implementation6"}
+{"logLevel":"debug","message":"Executing 'SeekQASpecialistJonQuantity' using 'class org.example.TestImplementation.implementation7"}
