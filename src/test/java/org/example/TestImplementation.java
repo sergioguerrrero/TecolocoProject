@@ -96,15 +96,20 @@ public class TestImplementation {
         CleanSearch.click();
 
 
-        );
-
-
     }
 
     @Step("SearchNullJob")
     public void implementation12() {
         WebElement searchBox3 = driver.findElement(By.name("Keywords"));
         searchBox3.sendKeys("Relaxing");
+
+    }
+
+    @Step("ClicButtonJobNull")
+    public void implementation13() {
+        WebElement clickButton3 = driver.findElement(By.id("btnSubmit"));
+        clickButton3.click();
+
 
     }
 }
