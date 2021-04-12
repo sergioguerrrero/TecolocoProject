@@ -1,33 +1,21 @@
 ## About this template
 
-This is a template to get started with a Gauge project that uses Selenium as the driver to interact with a web browser.
+This is a template to get started with a Gauge project that uses Java - Selenium as the driver to interact with a web browser.
 
 ## Installing this template
+Precondition
 
+    Set up Java in your machine.
     gauge --install java_maven_selenium
 
 ## Building on top of this template
 
-### Defining Specifications
-
-* This template includes a sample specification which opens up a browser and navigates to `Get Started` page of Gauge.
-* Add more specifications on top of sample specification.
-
-Read more about [Specifications](http://getgauge.io/documentation/user/current/specifications/README.html)
-
 ### Writing the implementations
 
-This is where the java implementation of the steps would be implemented. Since this is a Selenium based project, the java implementation would invoke Selenium APIs as required.
+Open Intellij and create a new Gauge Seleniu
 
-_We recommend considering modelling your tests using the [Page Object](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) pattern, and the [Webdriver support](https://github.com/SeleniumHQ/selenium/wiki/PageFactory) for creating them._
+Steps to install Gauge Intellij IDEA plugin from IDE:
 
-- Note that every Gauge step implementation is annotated with a `Step` attribute that takes the Step text pattern as a parameter.
-Read more about [Step implementations in Java](http://getgauge.io/documentation/user/current/test_code/java/java.html)
+• Open the Settings dialog • In the left-hand pane, select Plugins. • On the Plugins page that opens in the right-hand part of the dialog, click the Install JetBrains plugin or the Browse repositories button. • In the dialog that opens, search for Gauge. Right-click on Gauge and select Download and Install. • Confirm your intention to download and install the selected plugin. • Click Close. • Click OK in the Settings dialog and restart IntelliJ IDEA for the changes to take effect.
 
 ### Execution
-
-* You can execute the specification as:
-
-```
-mvn test
-```
