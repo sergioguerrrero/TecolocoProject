@@ -2624,3 +2624,11 @@
 12-04-2021 09:46:58.063 [Gauge] [INFO] Spec file added / modified: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
 12-04-2021 11:05:01.334 [Gauge] [INFO] Spec file added / modified: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
 12-04-2021 12:12:28.972 [Gauge] [INFO] Spec file added / modified: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
+12-04-2021 13:22:44.971 [Gauge] [INFO] Watching directory: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs
+12-04-2021 13:22:44.992 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+12-04-2021 13:22:45.001 [Gauge] [DEBUG] Found 1 files
+12-04-2021 13:22:45.004 [Gauge] [INFO] Spec file added / modified: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
+12-04-2021 13:22:45.008 [Gauge] [INFO] Initializing specs cache with 1 specs
+12-04-2021 13:22:45.008 [Gauge] [DEBUG] Adding specs from C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\specs\Test.spec
+12-04-2021 13:22:45.008 [Gauge] [INFO] Initializing steps cache with 1 steps
+12-04-2021 13:22:45.010 [Gauge] [INFO] Gauge daemon initialized and listening on port: 65072

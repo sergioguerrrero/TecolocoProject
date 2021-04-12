@@ -21,34 +21,34 @@ public class TestImplementation {
     WebDriver driver = new ChromeDriver();
 
     @Step("NavigateUrl <https://www.irishjobs.ie/>")
-    public void implementation1(Object arg0) {
+    public void setUrl(Object arg0) {
         System.setProperty("webdriver.chrome.driver", "src/resource/chromedriver.exe");
-        String URL ="https://www.irishjobs.ie/";
+        String URL = "https://www.irishjobs.ie/";
         driver.get(URL);
         driver.manage().window().maximize();
 
     }
 
     @Step("AcceptCooking")
-    public void implementation2() {
+    public void acceptCookPage() {
         WebElement clickCookingButton = driver.findElement(By.xpath("//button[normalize-space()='I accept']"));
         clickCookingButton.click();
     }
 
     @Step("Search the job")
-    public void implementation3() {
+    public void verifySearchJobRecommend() {
         WebElement searchBox = driver.findElement(By.name("Keywords"));
         searchBox.sendKeys("RECOMMENDED JOBS FOR YOU");
     }
 
     @Step("ClickIntheSearchButton")
-    public void implementation4() {
+    public void clickSubmitJob() {
         WebElement clickButton = driver.findElement(By.id("btnSubmit"));
         clickButton.click();
     }
 
     @Step("NumberOfElementInThePage")
-    public void implementation5() {
+    public void verifyCountJobs() {
         List<WebElement> CountTheElement = driver.findElements(By.linkText("HSE (HEALTH SERVICES EXECUTIVE)"));
         System.out.println("");
         System.out.println("***************************");
@@ -59,28 +59,25 @@ public class TestImplementation {
     }
 
     @Step("BackHomePage")
-    public void implementation6() {
+    public void navigationCommand() {
         driver.navigate().back();
-        //WebElement searchBoxclean = driver.findElement(By.name("Keywords"));
-        //searchBoxclean.clear();
     }
 
     @Step("CleanSearch")
-    public void implementation7() {
-
+    public void cleanSarchElement() {
         WebElement CleanJ = driver.findElement(By.xpath("//span[contains(text(),'×')]"));
         CleanJ.click();
 
     }
 
     @Step("SeekNewJob")
-    public void implementation8() {
+    public void verifySeekJob() {
         WebElement searchBox2 = driver.findElement(By.name("Keywords"));
         searchBox2.sendKeys("QA Specialist");
     }
 
     @Step("ClickSearch")
-    public void implementation9() {
+    public void clickSubmit() {
         WebElement clickButton2 = driver.findElement(By.id("btnSubmit"));
         clickButton2.click();
 
@@ -88,44 +85,43 @@ public class TestImplementation {
 
 
     @Step("CountTheQaJOb")
-    public void implementation10() {
-        List<WebElement> JobNumber = driver.findElements(By.cssSelector("body > div:nth-child(9) > div:nth-child(5) > div:nth-child(3) > div:nth-child(2) > div:nth-child(5) > div:nth-child(1)"));
+    public void verifyCountJob() {
+        List<WebElement> JobNumber = driver.findElements(By.tagName("div"));
         System.out.println("*****************************");
         System.out.println("Quantity of Job: " + JobNumber.size());
 
     }
 
     @Step("JobNullback")
-    public void implementation11() {
+    public void navigationCommandBack() {
         driver.navigate().back();
         WebElement CleanSearch = driver.findElement(By.xpath("//span[contains(text(),'×')]"));
         CleanSearch.click();
-
-
     }
 
     @Step("SearchNullJob")
-    public void implementation12() {
+    public void verifyJobNull() {
         WebElement searchBox3 = driver.findElement(By.name("Keywords"));
         searchBox3.sendKeys("Relaxing");
 
     }
 
     @Step("ClicButtonJobNull")
-    public void implementation13() {
+    public void verifySearchJob() {
         WebElement clickButton3 = driver.findElement(By.id("btnSubmit"));
         clickButton3.click();
 
     }
 
     @Step("ValidateResultNull")
-    public void  implementation14() {
+    public void verifyNoJobFound() {
 
-        String ActualResult  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
+        String ActualResult = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
         String ExpectResult = "No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted";
-        System.out.println("Expect Result is : " +ExpectResult);
+        System.out.println("Expect Result is : " + ExpectResult);
         assertThat(ActualResult).isEqualTo(ExpectResult);
 
-
     }
+
+
 }

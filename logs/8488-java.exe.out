@@ -1,0 +1,107 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 4116milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4116"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58516"}
+{"logLevel":"info","message":"Listening on port:58516"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.verifyNoJobFound' and 'org.example.TestImplementation.verifyNoJobFound'"}
+{"logLevel":"debug","message":"Found ValidateResultNull in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.cleanSarchElement' and 'org.example.TestImplementation.cleanSarchElement'"}
+{"logLevel":"debug","message":"Found CleanSearch in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.clickSubmitJob' and 'org.example.TestImplementation.clickSubmitJob'"}
+{"logLevel":"debug","message":"Found ClickIntheSearchButton in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.verifyCountJob' and 'org.example.TestImplementation.verifyCountJob'"}
+{"logLevel":"debug","message":"Found CountTheQaJOb in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.navigationCommand' and 'org.example.TestImplementation.navigationCommand'"}
+{"logLevel":"debug","message":"Found BackHomePage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.navigationCommandBack' and 'org.example.TestImplementation.navigationCommandBack'"}
+{"logLevel":"debug","message":"Found JobNullback in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.verifyCountJobs' and 'org.example.TestImplementation.verifyCountJobs'"}
+{"logLevel":"debug","message":"Found NumberOfElementInThePage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.verifySearchJob' and 'org.example.TestImplementation.verifySearchJob'"}
+{"logLevel":"debug","message":"Found ClicButtonJobNull in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.acceptCookPage' and 'org.example.TestImplementation.acceptCookPage'"}
+{"logLevel":"debug","message":"Found AcceptCooking in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.clickSubmit' and 'org.example.TestImplementation.clickSubmit'"}
+{"logLevel":"debug","message":"Found ClickSearch in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.verifyJobNull' and 'org.example.TestImplementation.verifyJobNull'"}
+{"logLevel":"debug","message":"Found SearchNullJob in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.setUrl' and 'org.example.TestImplementation.setUrl'"}
+{"logLevel":"debug","message":"Found NavigateUrl {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.verifySeekJob' and 'org.example.TestImplementation.verifySeekJob'"}
+{"logLevel":"debug","message":"Found SeekNewJob in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.verifySearchJobRecommend' and 'org.example.TestImplementation.verifySearchJobRecommend'"}
+{"logLevel":"debug","message":"Found Search the job in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tNavigateUrl {} : public void setUrl(Object arg0)"}
+{"logLevel":"debug","message":"\tClickIntheSearchButton : public void clickSubmitJob()"}
+{"logLevel":"debug","message":"\tSearchNullJob : public void verifyJobNull()"}
+{"logLevel":"debug","message":"\tCleanSearch : public void cleanSarchElement()"}
+{"logLevel":"debug","message":"\tNumberOfElementInThePage : public void verifyCountJobs()"}
+{"logLevel":"debug","message":"\tCountTheQaJOb : public void verifyCountJob()"}
+{"logLevel":"debug","message":"\tBackHomePage : public void navigationCommand()"}
+{"logLevel":"debug","message":"\tClickSearch : public void clickSubmit()"}
+{"logLevel":"debug","message":"\tAcceptCooking : public void acceptCookPage()"}
+{"logLevel":"debug","message":"\tJobNullback : public void navigationCommandBack()"}
+{"logLevel":"debug","message":"\tSearch the job : public void verifySearchJobRecommend()"}
+{"logLevel":"debug","message":"\tSeekNewJob : public void verifySeekJob()"}
+{"logLevel":"debug","message":"\tValidateResultNull : public void verifyNoJobFound()"}
+{"logLevel":"debug","message":"\tClicButtonJobNull : public void verifySearchJob()"}
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 32760
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 12, 2021 3:21:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.setUrl"}
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 12506
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 12, 2021 3:21:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'AcceptCooking' using 'class org.example.TestImplementation.acceptCookPage"}
+{"logLevel":"debug","message":"Executing 'Search the job' using 'class org.example.TestImplementation.verifySearchJobRecommend"}
+{"logLevel":"debug","message":"Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.clickSubmitJob"}
+{"logLevel":"debug","message":"Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.verifyCountJobs"}
+
+***************************
+Total of JOB with the same atribute are: 20
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+{"logLevel":"debug","message":"Executing 'BackHomePage' using 'class org.example.TestImplementation.navigationCommand"}
+{"logLevel":"debug","message":"Executing 'CleanSearch' using 'class org.example.TestImplementation.cleanSarchElement"}
+{"logLevel":"debug","message":"Executing 'SeekNewJob' using 'class org.example.TestImplementation.verifySeekJob"}
+{"logLevel":"debug","message":"Executing 'ClickSearch' using 'class org.example.TestImplementation.clickSubmit"}
+{"logLevel":"debug","message":"Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.verifyCountJob"}
+*****************************
+Quantity of Job: 359
+{"logLevel":"debug","message":"Executing 'JobNullback' using 'class org.example.TestImplementation.navigationCommandBack"}
+{"logLevel":"debug","message":"Executing 'SearchNullJob' using 'class org.example.TestImplementation.verifyJobNull"}
+{"logLevel":"debug","message":"Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.verifySearchJob"}
+{"logLevel":"debug","message":"Executing 'ValidateResultNull' using 'class org.example.TestImplementation.verifyNoJobFound"}
+Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted

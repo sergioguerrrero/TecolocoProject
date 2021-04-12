@@ -12858,3 +12858,983 @@ Total time taken: 32.675s
 12-04-2021 12:53:11.903 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
 12-04-2021 12:53:11.905 [Gauge] [INFO] 
 Total time taken: 35.193s
+12-04-2021 13:28:30.477 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\.gauge\screenshots
+12-04-2021 13:28:30.630 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-04-2021 13:28:30.636 [Gauge] [DEBUG] Plugin java is already installed.
+12-04-2021 13:28:30.695 [Gauge] [DEBUG] Parsing started.
+12-04-2021 13:28:30.695 [Gauge] [DEBUG] Started concepts parsing.
+12-04-2021 13:28:30.735 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-04-2021 13:28:30.736 [Gauge] [DEBUG] Started specifications parsing.
+12-04-2021 13:28:30.737 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-04-2021 13:28:30.742 [Gauge] [DEBUG] Parsing completed.
+12-04-2021 13:28:30.968 [java] [DEBUG] ***** Printing Properties/Env Values *****
+12-04-2021 13:28:30.968 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+12-04-2021 13:28:30.968 [java] [DEBUG] JAVA_HOME: 
+12-04-2021 13:28:30.968 [java] [DEBUG] gauge_project_root: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+12-04-2021 13:28:30.968 [java] [DEBUG] gauge_parallel_streams_count: 4
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_reports_dir: reports
+12-04-2021 13:28:30.969 [java] [DEBUG] overwrite_reports: true
+12-04-2021 13:28:30.969 [java] [DEBUG] logs_directory: logs
+12-04-2021 13:28:30.969 [java] [DEBUG] enable_multithreading: false
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_specs_dir: specs
+12-04-2021 13:28:30.969 [java] [DEBUG] csv_delimiter: ,
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_java_home: 
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_custom_build_path: 
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_additional_libs: libs/*
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_jvm_args: 
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_custom_compile_dir: 
+12-04-2021 13:28:30.969 [java] [DEBUG] gauge_clear_state_level: scenario
+12-04-2021 13:28:30.969 [java] [DEBUG] ***** END *****
+12-04-2021 13:28:30.994 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+12-04-2021 13:28:30.995 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+12-04-2021 13:28:30.995 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\target\test-classes;C:\Users\Sergio Guerrero\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\Sergio Guerrero\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sergio Guerrero\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\Sergio Guerrero\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Sergio Guerrero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Sergio Guerrero\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Sergio Guerrero\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+12-04-2021 13:28:30.996 [java] [DEBUG] found java executable in java.exe
+12-04-2021 13:28:30.998 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+12-04-2021 13:28:30.998 [java] [DEBUG] stdout/stderr is logged to logs\37844-java.exe.out
+12-04-2021 13:28:31.851 [Gauge] [DEBUG] Checking updates...
+12-04-2021 13:28:31.858 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:28:31.957 [java] [DEBUG] multithreading is set to false
+12-04-2021 13:28:32.678 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:28:32.981 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:28:33.007 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+12-04-2021 13:28:33.342 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+12-04-2021 13:28:33.342 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+12-04-2021 13:28:33.342 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-04-2021 13:28:36.145 [java] [DEBUG] gauge-java took 4005milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+12-04-2021 13:28:36.145 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 4005
+12-04-2021 13:28:36.145 [java] [DEBUG] starting gRPC server...
+12-04-2021 13:28:37.507 [java] [DEBUG] started gRPC server on port 63191
+12-04-2021 13:28:37.507 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63191
+12-04-2021 13:28:37.875 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63191
+12-04-2021 13:28:37.883 [Gauge] [DEBUG] Validation started.
+12-04-2021 13:28:40.058 [java] [DEBUG] Scanning packages for steps
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation5' and 'org.example.TestImplementation.implementation5'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found NumberOfElementInThePage in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation4' and 'org.example.TestImplementation.implementation4'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found ClickIntheSearchButton in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation3' and 'org.example.TestImplementation.implementation3'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found Search the job in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation2' and 'org.example.TestImplementation.implementation2'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found AcceptCooking in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation9' and 'org.example.TestImplementation.implementation9'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found ClickSearch in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation8' and 'org.example.TestImplementation.implementation8'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found SeekNewJob in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation7' and 'org.example.TestImplementation.implementation7'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found CleanSearch in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation6' and 'org.example.TestImplementation.implementation6'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found BackHomePage in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation1' and 'org.example.TestImplementation.implementation1'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found NavigateUrl {} in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation14' and 'org.example.TestImplementation.implementation14'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found ValidateResultNull in current project scope.
+12-04-2021 13:28:40.115 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation13' and 'org.example.TestImplementation.implementation13'
+12-04-2021 13:28:40.115 [java] [DEBUG] Found ClicButtonJobNull in current project scope.
+12-04-2021 13:28:40.119 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation10' and 'org.example.TestImplementation.implementation10'
+12-04-2021 13:28:40.119 [java] [DEBUG] Found CountTheQaJOb in current project scope.
+12-04-2021 13:28:40.119 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation12' and 'org.example.TestImplementation.implementation12'
+12-04-2021 13:28:40.119 [java] [DEBUG] Found SearchNullJob in current project scope.
+12-04-2021 13:28:40.119 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation11' and 'org.example.TestImplementation.implementation11'
+12-04-2021 13:28:40.119 [java] [DEBUG] Found JobNullback in current project scope.
+12-04-2021 13:28:40.119 [java] [DEBUG] Scanning packages for hooks
+12-04-2021 13:28:40.135 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+12-04-2021 13:28:40.135 [java] [DEBUG] 	NavigateUrl {} : public void implementation1(Object arg0)
+12-04-2021 13:28:40.147 [java] [DEBUG] 	ClickIntheSearchButton : public void implementation4()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	SearchNullJob : public void implementation12()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	CleanSearch : public void implementation7()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	NumberOfElementInThePage : public void implementation5()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	CountTheQaJOb : public void implementation10()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	BackHomePage : public void implementation6()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	ClickSearch : public void implementation9()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	AcceptCooking : public void implementation2()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	JobNullback : public void implementation11()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	Search the job : public void implementation3()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	SeekNewJob : public void implementation8()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	ValidateResultNull : public void implementation14()
+12-04-2021 13:28:40.147 [java] [DEBUG] 	ClicButtonJobNull : public void implementation13()
+12-04-2021 13:28:43.568 [Gauge] [DEBUG] Validation completed.
+12-04-2021 13:28:43.571 [Gauge] [DEBUG] Run started
+12-04-2021 13:28:43.574 [Gauge] [DEBUG] Starting Html Report plugin
+12-04-2021 13:28:43.628 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50894
+12-04-2021 13:28:43.630 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50894
+12-04-2021 13:28:43.631 [Gauge] [DEBUG] Initialising suite data store.
+12-04-2021 13:28:44.773 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 20702
+12-04-2021 13:28:44.773 [java] [ERROR] Only local connections are allowed.
+12-04-2021 13:28:44.773 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 13:28:44.793 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 13:28:47.674 [java] [ERROR] Apr 12, 2021 1:28:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 13:28:47.674 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 13:28:48.263 [java] [DEBUG] Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.implementation1
+12-04-2021 13:28:48.436 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 13252
+12-04-2021 13:28:48.436 [java] [ERROR] Only local connections are allowed.
+12-04-2021 13:28:48.436 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 13:28:48.451 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 13:28:50.742 [java] [ERROR] Apr 12, 2021 1:28:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 13:28:50.742 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 13:29:02.390 [java] [DEBUG] Executing 'AcceptCooking' using 'class org.example.TestImplementation.implementation2
+12-04-2021 13:29:02.651 [java] [DEBUG] Executing 'Search the job' using 'class org.example.TestImplementation.implementation3
+12-04-2021 13:29:03.642 [java] [DEBUG] Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.implementation4
+12-04-2021 13:29:14.727 [java] [DEBUG] Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.implementation5
+12-04-2021 13:29:15.106 [java] [INFO] ***************************
+12-04-2021 13:29:15.106 [java] [INFO] Total of JOB with the same atribute are: 20
+12-04-2021 13:29:15.618 [java] [DEBUG] Executing 'BackHomePage' using 'class org.example.TestImplementation.implementation6
+12-04-2021 13:29:18.096 [java] [DEBUG] Executing 'CleanSearch' using 'class org.example.TestImplementation.implementation7
+12-04-2021 13:29:18.309 [java] [DEBUG] Executing 'SeekNewJob' using 'class org.example.TestImplementation.implementation8
+12-04-2021 13:29:18.525 [java] [DEBUG] Executing 'ClickSearch' using 'class org.example.TestImplementation.implementation9
+12-04-2021 13:29:24.656 [java] [DEBUG] Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.implementation10
+12-04-2021 13:29:24.682 [java] [INFO] *****************************
+12-04-2021 13:29:24.682 [java] [INFO] Quantity of Job: 1
+12-04-2021 13:29:24.692 [java] [DEBUG] Executing 'JobNullback' using 'class org.example.TestImplementation.implementation11
+12-04-2021 13:29:27.872 [java] [DEBUG] Executing 'SearchNullJob' using 'class org.example.TestImplementation.implementation12
+12-04-2021 13:29:27.964 [java] [DEBUG] Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.implementation13
+12-04-2021 13:29:29.266 [java] [DEBUG] Executing 'ValidateResultNull' using 'class org.example.TestImplementation.implementation14
+12-04-2021 13:29:29.308 [java] [INFO] Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted
+12-04-2021 13:29:31.910 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-04-2021 13:29:32.025 [html-report] [INFO] Successfully generated html-report to => C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\reports\html-report\index.html
+12-04-2021 13:29:32.025 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+12-04-2021 13:29:32.026 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-04-2021 13:29:32.803 [Gauge] [DEBUG] Runner with PID:37844 has exited
+12-04-2021 13:29:32.803 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-04-2021 13:29:32.803 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-04-2021 13:29:32.804 [Gauge] [INFO] 
+Total time taken: 48.33s
+12-04-2021 13:31:02.226 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\.gauge\screenshots
+12-04-2021 13:31:02.231 [Gauge] [DEBUG] Plugin java is already installed.
+12-04-2021 13:31:02.233 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-04-2021 13:31:02.235 [Gauge] [DEBUG] Parsing started.
+12-04-2021 13:31:02.235 [Gauge] [DEBUG] Started concepts parsing.
+12-04-2021 13:31:02.262 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-04-2021 13:31:02.263 [Gauge] [DEBUG] Started specifications parsing.
+12-04-2021 13:31:02.264 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-04-2021 13:31:02.264 [Gauge] [DEBUG] Parsing completed.
+12-04-2021 13:31:02.321 [java] [DEBUG] ***** Printing Properties/Env Values *****
+12-04-2021 13:31:02.322 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+12-04-2021 13:31:02.322 [java] [DEBUG] JAVA_HOME: 
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_project_root: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_parallel_streams_count: 4
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_reports_dir: reports
+12-04-2021 13:31:02.322 [java] [DEBUG] overwrite_reports: true
+12-04-2021 13:31:02.322 [java] [DEBUG] logs_directory: logs
+12-04-2021 13:31:02.322 [java] [DEBUG] enable_multithreading: false
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_specs_dir: specs
+12-04-2021 13:31:02.322 [java] [DEBUG] csv_delimiter: ,
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_java_home: 
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_custom_build_path: 
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_additional_libs: libs/*
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_jvm_args: 
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_custom_compile_dir: 
+12-04-2021 13:31:02.322 [java] [DEBUG] gauge_clear_state_level: scenario
+12-04-2021 13:31:02.322 [java] [DEBUG] ***** END *****
+12-04-2021 13:31:02.378 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+12-04-2021 13:31:02.378 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+12-04-2021 13:31:02.383 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\target\test-classes;C:\Users\Sergio Guerrero\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\Sergio Guerrero\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sergio Guerrero\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\Sergio Guerrero\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Sergio Guerrero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Sergio Guerrero\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Sergio Guerrero\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+12-04-2021 13:31:02.383 [java] [DEBUG] found java executable in java.exe
+12-04-2021 13:31:02.383 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+12-04-2021 13:31:02.383 [java] [DEBUG] stdout/stderr is logged to logs\4440-java.exe.out
+12-04-2021 13:31:02.911 [Gauge] [DEBUG] Checking updates...
+12-04-2021 13:31:03.071 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:31:03.538 [java] [DEBUG] multithreading is set to false
+12-04-2021 13:31:03.988 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:31:04.135 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:31:04.620 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+12-04-2021 13:31:04.993 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+12-04-2021 13:31:04.993 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+12-04-2021 13:31:04.993 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-04-2021 13:31:08.558 [java] [DEBUG] gauge-java took 4955milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+12-04-2021 13:31:08.558 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 4955
+12-04-2021 13:31:08.558 [java] [DEBUG] starting gRPC server...
+12-04-2021 13:31:10.583 [java] [DEBUG] started gRPC server on port 54460
+12-04-2021 13:31:10.583 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 54460
+12-04-2021 13:31:10.962 [Gauge] [DEBUG] Successfully made the connection with runner with port: 54460
+12-04-2021 13:31:10.962 [Gauge] [DEBUG] Validation started.
+12-04-2021 13:31:13.239 [java] [DEBUG] Scanning packages for steps
+12-04-2021 13:31:13.412 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation5' and 'org.example.TestImplementation.implementation5'
+12-04-2021 13:31:13.412 [java] [DEBUG] Found NumberOfElementInThePage in current project scope.
+12-04-2021 13:31:13.412 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation4' and 'org.example.TestImplementation.implementation4'
+12-04-2021 13:31:13.412 [java] [DEBUG] Found ClickIntheSearchButton in current project scope.
+12-04-2021 13:31:13.412 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation3' and 'org.example.TestImplementation.implementation3'
+12-04-2021 13:31:13.412 [java] [DEBUG] Found Search the job in current project scope.
+12-04-2021 13:31:13.412 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation2' and 'org.example.TestImplementation.implementation2'
+12-04-2021 13:31:13.412 [java] [DEBUG] Found AcceptCooking in current project scope.
+12-04-2021 13:31:13.412 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation9' and 'org.example.TestImplementation.implementation9'
+12-04-2021 13:31:13.412 [java] [DEBUG] Found ClickSearch in current project scope.
+12-04-2021 13:31:13.412 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation8' and 'org.example.TestImplementation.implementation8'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found SeekNewJob in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation7' and 'org.example.TestImplementation.implementation7'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found CleanSearch in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation6' and 'org.example.TestImplementation.implementation6'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found BackHomePage in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation1' and 'org.example.TestImplementation.implementation1'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found NavigateUrl {} in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation14' and 'org.example.TestImplementation.implementation14'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found ValidateResultNull in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation13' and 'org.example.TestImplementation.implementation13'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found ClicButtonJobNull in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation10' and 'org.example.TestImplementation.implementation10'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found CountTheQaJOb in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation12' and 'org.example.TestImplementation.implementation12'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found SearchNullJob in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation11' and 'org.example.TestImplementation.implementation11'
+12-04-2021 13:31:13.413 [java] [DEBUG] Found JobNullback in current project scope.
+12-04-2021 13:31:13.413 [java] [DEBUG] Scanning packages for hooks
+12-04-2021 13:31:13.413 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+12-04-2021 13:31:13.413 [java] [DEBUG] 	NavigateUrl {} : public void implementation1(Object arg0)
+12-04-2021 13:31:13.413 [java] [DEBUG] 	ClickIntheSearchButton : public void implementation4()
+12-04-2021 13:31:13.413 [java] [DEBUG] 	SearchNullJob : public void implementation12()
+12-04-2021 13:31:13.413 [java] [DEBUG] 	CleanSearch : public void implementation7()
+12-04-2021 13:31:13.413 [java] [DEBUG] 	NumberOfElementInThePage : public void implementation5()
+12-04-2021 13:31:13.413 [java] [DEBUG] 	CountTheQaJOb : public void implementation10()
+12-04-2021 13:31:13.413 [java] [DEBUG] 	BackHomePage : public void implementation6()
+12-04-2021 13:31:13.413 [java] [DEBUG] 	ClickSearch : public void implementation9()
+12-04-2021 13:31:13.450 [java] [DEBUG] 	AcceptCooking : public void implementation2()
+12-04-2021 13:31:13.450 [java] [DEBUG] 	JobNullback : public void implementation11()
+12-04-2021 13:31:13.450 [java] [DEBUG] 	Search the job : public void implementation3()
+12-04-2021 13:31:13.450 [java] [DEBUG] 	SeekNewJob : public void implementation8()
+12-04-2021 13:31:13.450 [java] [DEBUG] 	ValidateResultNull : public void implementation14()
+12-04-2021 13:31:13.450 [java] [DEBUG] 	ClicButtonJobNull : public void implementation13()
+12-04-2021 13:31:17.557 [Gauge] [DEBUG] Validation completed.
+12-04-2021 13:31:17.557 [Gauge] [DEBUG] Run started
+12-04-2021 13:31:17.560 [Gauge] [DEBUG] Starting Html Report plugin
+12-04-2021 13:31:17.600 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 56448
+12-04-2021 13:31:17.601 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 56448
+12-04-2021 13:31:17.601 [Gauge] [DEBUG] Initialising suite data store.
+12-04-2021 13:31:18.661 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 21063
+12-04-2021 13:31:18.661 [java] [ERROR] Only local connections are allowed.
+12-04-2021 13:31:18.661 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 13:31:18.672 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 13:31:21.435 [java] [ERROR] Apr 12, 2021 1:31:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 13:31:21.435 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 13:31:21.574 [java] [DEBUG] Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.implementation1
+12-04-2021 13:31:21.718 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 33174
+12-04-2021 13:31:21.718 [java] [ERROR] Only local connections are allowed.
+12-04-2021 13:31:21.718 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 13:31:21.730 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 13:31:23.573 [java] [ERROR] Apr 12, 2021 1:31:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 13:31:23.573 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 13:31:29.350 [java] [DEBUG] Executing 'AcceptCooking' using 'class org.example.TestImplementation.implementation2
+12-04-2021 13:31:29.604 [java] [DEBUG] Executing 'Search the job' using 'class org.example.TestImplementation.implementation3
+12-04-2021 13:31:30.668 [java] [DEBUG] Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.implementation4
+12-04-2021 13:31:37.094 [java] [DEBUG] Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.implementation5
+12-04-2021 13:31:37.485 [java] [INFO] ***************************
+12-04-2021 13:31:37.485 [java] [INFO] Total of JOB with the same atribute are: 20
+12-04-2021 13:31:38.101 [java] [DEBUG] Executing 'BackHomePage' using 'class org.example.TestImplementation.implementation6
+12-04-2021 13:31:40.381 [java] [DEBUG] Executing 'CleanSearch' using 'class org.example.TestImplementation.implementation7
+12-04-2021 13:31:40.529 [java] [DEBUG] Executing 'SeekNewJob' using 'class org.example.TestImplementation.implementation8
+12-04-2021 13:31:40.716 [java] [DEBUG] Executing 'ClickSearch' using 'class org.example.TestImplementation.implementation9
+12-04-2021 13:31:43.982 [java] [DEBUG] Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.implementation10
+12-04-2021 13:31:44.110 [java] [INFO] *****************************
+12-04-2021 13:31:44.110 [java] [INFO] Quantity of Job: 359
+12-04-2021 13:31:44.144 [java] [DEBUG] Executing 'JobNullback' using 'class org.example.TestImplementation.implementation11
+12-04-2021 13:31:45.924 [java] [DEBUG] Executing 'SearchNullJob' using 'class org.example.TestImplementation.implementation12
+12-04-2021 13:31:46.066 [java] [DEBUG] Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.implementation13
+12-04-2021 13:31:47.518 [java] [DEBUG] Executing 'ValidateResultNull' using 'class org.example.TestImplementation.implementation14
+12-04-2021 13:31:47.567 [java] [INFO] Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted
+12-04-2021 13:31:52.984 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-04-2021 13:31:53.073 [html-report] [INFO] Successfully generated html-report to => C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\reports\html-report\index.html
+12-04-2021 13:31:53.073 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+12-04-2021 13:31:53.077 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-04-2021 13:31:53.997 [Gauge] [DEBUG] Runner with PID:4440 has exited
+12-04-2021 13:31:53.997 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+12-04-2021 13:31:53.997 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12-04-2021 13:31:53.998 [Gauge] [INFO] 
+Total time taken: 35.419s
+12-04-2021 13:32:43.188 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\.gauge\screenshots
+12-04-2021 13:32:43.192 [Gauge] [DEBUG] Plugin java is already installed.
+12-04-2021 13:32:43.194 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-04-2021 13:32:43.195 [Gauge] [DEBUG] Parsing started.
+12-04-2021 13:32:43.195 [Gauge] [DEBUG] Started concepts parsing.
+12-04-2021 13:32:43.213 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-04-2021 13:32:43.214 [Gauge] [DEBUG] Started specifications parsing.
+12-04-2021 13:32:43.215 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-04-2021 13:32:43.215 [Gauge] [DEBUG] Parsing completed.
+12-04-2021 13:32:43.269 [java] [DEBUG] ***** Printing Properties/Env Values *****
+12-04-2021 13:32:43.269 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+12-04-2021 13:32:43.269 [java] [DEBUG] JAVA_HOME: 
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_project_root: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_parallel_streams_count: 4
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_reports_dir: reports
+12-04-2021 13:32:43.269 [java] [DEBUG] overwrite_reports: true
+12-04-2021 13:32:43.269 [java] [DEBUG] logs_directory: logs
+12-04-2021 13:32:43.269 [java] [DEBUG] enable_multithreading: false
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_specs_dir: specs
+12-04-2021 13:32:43.269 [java] [DEBUG] csv_delimiter: ,
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_java_home: 
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_custom_build_path: 
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_additional_libs: libs/*
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_jvm_args: 
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_custom_compile_dir: 
+12-04-2021 13:32:43.269 [java] [DEBUG] gauge_clear_state_level: scenario
+12-04-2021 13:32:43.269 [java] [DEBUG] ***** END *****
+12-04-2021 13:32:43.311 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+12-04-2021 13:32:43.311 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+12-04-2021 13:32:43.313 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\target\test-classes;C:\Users\Sergio Guerrero\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\Sergio Guerrero\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sergio Guerrero\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\Sergio Guerrero\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Sergio Guerrero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Sergio Guerrero\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Sergio Guerrero\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+12-04-2021 13:32:43.314 [java] [DEBUG] found java executable in java.exe
+12-04-2021 13:32:43.315 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+12-04-2021 13:32:43.315 [java] [DEBUG] stdout/stderr is logged to logs\32664-java.exe.out
+12-04-2021 13:32:44.033 [Gauge] [DEBUG] Checking updates...
+12-04-2021 13:32:44.055 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:32:44.227 [java] [DEBUG] multithreading is set to false
+12-04-2021 13:32:44.580 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:32:44.771 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 13:32:45.146 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+12-04-2021 13:32:45.509 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+12-04-2021 13:32:45.509 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+12-04-2021 13:32:45.509 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-04-2021 13:32:48.404 [java] [DEBUG] gauge-java took 4111milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+12-04-2021 13:32:48.404 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 4111
+12-04-2021 13:32:48.404 [java] [DEBUG] starting gRPC server...
+12-04-2021 13:32:50.523 [java] [DEBUG] started gRPC server on port 63053
+12-04-2021 13:32:50.523 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63053
+12-04-2021 13:32:50.856 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63053
+12-04-2021 13:32:50.856 [Gauge] [DEBUG] Validation started.
+12-04-2021 13:32:53.250 [java] [DEBUG] Scanning packages for steps
+12-04-2021 13:32:53.359 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation5' and 'org.example.TestImplementation.implementation5'
+12-04-2021 13:32:53.359 [java] [DEBUG] Found NumberOfElementInThePage in current project scope.
+12-04-2021 13:32:53.359 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation4' and 'org.example.TestImplementation.implementation4'
+12-04-2021 13:32:53.359 [java] [DEBUG] Found ClickIntheSearchButton in current project scope.
+12-04-2021 13:32:53.359 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation3' and 'org.example.TestImplementation.implementation3'
+12-04-2021 13:32:53.359 [java] [DEBUG] Found Search the job in current project scope.
+12-04-2021 13:32:53.359 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation2' and 'org.example.TestImplementation.implementation2'
+12-04-2021 13:32:53.359 [java] [DEBUG] Found AcceptCooking in current project scope.
+12-04-2021 13:32:53.359 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation9' and 'org.example.TestImplementation.implementation9'
+12-04-2021 13:32:53.359 [java] [DEBUG] Found ClickSearch in current project scope.
+12-04-2021 13:32:53.359 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation8' and 'org.example.TestImplementation.implementation8'
+12-04-2021 13:32:53.359 [java] [DEBUG] Found SeekNewJob in current project scope.
+12-04-2021 13:32:53.359 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation7' and 'org.example.TestImplementation.implementation7'
+12-04-2021 13:32:53.359 [java] [DEBUG] Found CleanSearch in current project scope.
+12-04-2021 13:32:53.360 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation6' and 'org.example.TestImplementation.implementation6'
+12-04-2021 13:32:53.360 [java] [DEBUG] Found BackHomePage in current project scope.
+12-04-2021 13:32:53.360 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation1' and 'org.example.TestImplementation.implementation1'
+12-04-2021 13:32:53.361 [java] [DEBUG] Found NavigateUrl {} in current project scope.
+12-04-2021 13:32:53.361 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation14' and 'org.example.TestImplementation.implementation14'
+12-04-2021 13:32:53.361 [java] [DEBUG] Found ValidateResultNull in current project scope.
+12-04-2021 13:32:53.361 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation13' and 'org.example.TestImplementation.implementation13'
+12-04-2021 13:32:53.361 [java] [DEBUG] Found ClicButtonJobNull in current project scope.
+12-04-2021 13:32:53.361 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation10' and 'org.example.TestImplementation.implementation10'
+12-04-2021 13:32:53.361 [java] [DEBUG] Found CountTheQaJOb in current project scope.
+12-04-2021 13:32:53.361 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation12' and 'org.example.TestImplementation.implementation12'
+12-04-2021 13:32:53.361 [java] [DEBUG] Found SearchNullJob in current project scope.
+12-04-2021 13:32:53.361 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation11' and 'org.example.TestImplementation.implementation11'
+12-04-2021 13:32:53.361 [java] [DEBUG] Found JobNullback in current project scope.
+12-04-2021 13:32:53.361 [java] [DEBUG] Scanning packages for hooks
+12-04-2021 13:32:53.361 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+12-04-2021 13:32:53.361 [java] [DEBUG] 	NavigateUrl {} : public void implementation1(Object arg0)
+12-04-2021 13:32:53.361 [java] [DEBUG] 	ClickIntheSearchButton : public void implementation4()
+12-04-2021 13:32:53.361 [java] [DEBUG] 	SearchNullJob : public void implementation12()
+12-04-2021 13:32:53.361 [java] [DEBUG] 	CleanSearch : public void implementation7()
+12-04-2021 13:32:53.361 [java] [DEBUG] 	NumberOfElementInThePage : public void implementation5()
+12-04-2021 13:32:53.361 [java] [DEBUG] 	CountTheQaJOb : public void implementation10()
+12-04-2021 13:32:53.361 [java] [DEBUG] 	BackHomePage : public void implementation6()
+12-04-2021 13:32:53.361 [java] [DEBUG] 	ClickSearch : public void implementation9()
+12-04-2021 13:32:53.362 [java] [DEBUG] 	AcceptCooking : public void implementation2()
+12-04-2021 13:32:53.362 [java] [DEBUG] 	JobNullback : public void implementation11()
+12-04-2021 13:32:53.362 [java] [DEBUG] 	Search the job : public void implementation3()
+12-04-2021 13:32:53.362 [java] [DEBUG] 	SeekNewJob : public void implementation8()
+12-04-2021 13:32:53.362 [java] [DEBUG] 	ValidateResultNull : public void implementation14()
+12-04-2021 13:32:53.362 [java] [DEBUG] 	ClicButtonJobNull : public void implementation13()
+12-04-2021 13:32:57.429 [Gauge] [DEBUG] Validation completed.
+12-04-2021 13:32:57.430 [Gauge] [DEBUG] Run started
+12-04-2021 13:32:57.434 [Gauge] [DEBUG] Starting Html Report plugin
+12-04-2021 13:32:57.470 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63748
+12-04-2021 13:32:57.471 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63748
+12-04-2021 13:32:57.472 [Gauge] [DEBUG] Initialising suite data store.
+12-04-2021 13:32:58.573 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 20416
+12-04-2021 13:32:58.573 [java] [ERROR] Only local connections are allowed.
+12-04-2021 13:32:58.573 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 13:32:58.583 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 13:33:01.065 [java] [ERROR] Apr 12, 2021 1:33:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 13:33:01.065 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 13:33:01.339 [java] [DEBUG] Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.implementation1
+12-04-2021 13:33:01.457 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 7332
+12-04-2021 13:33:01.457 [java] [ERROR] Only local connections are allowed.
+12-04-2021 13:33:01.457 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 13:33:01.470 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 13:33:05.704 [java] [ERROR] Apr 12, 2021 1:33:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 13:33:05.704 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 13:33:13.487 [java] [DEBUG] Executing 'AcceptCooking' using 'class org.example.TestImplementation.implementation2
+12-04-2021 13:33:13.780 [java] [DEBUG] Executing 'Search the job' using 'class org.example.TestImplementation.implementation3
+12-04-2021 13:33:14.525 [java] [DEBUG] Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.implementation4
+12-04-2021 13:33:21.444 [java] [DEBUG] Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.implementation5
+12-04-2021 13:33:21.772 [java] [INFO] ***************************
+12-04-2021 13:33:21.772 [java] [INFO] Total of JOB with the same atribute are: 20
+12-04-2021 13:33:22.354 [java] [DEBUG] Executing 'BackHomePage' using 'class org.example.TestImplementation.implementation6
+12-04-2021 13:33:24.245 [java] [DEBUG] Executing 'CleanSearch' using 'class org.example.TestImplementation.implementation7
+12-04-2021 13:33:24.408 [java] [DEBUG] Executing 'SeekNewJob' using 'class org.example.TestImplementation.implementation8
+12-04-2021 13:33:24.616 [java] [DEBUG] Executing 'ClickSearch' using 'class org.example.TestImplementation.implementation9
+12-04-2021 13:33:27.631 [java] [DEBUG] Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.implementation10
+12-04-2021 13:33:27.774 [java] [INFO] *****************************
+12-04-2021 13:33:27.775 [java] [INFO] Quantity of Job: 364
+12-04-2021 13:33:27.792 [java] [DEBUG] Executing 'JobNullback' using 'class org.example.TestImplementation.implementation11
+12-04-2021 13:33:29.074 [java] [DEBUG] Executing 'SearchNullJob' using 'class org.example.TestImplementation.implementation12
+12-04-2021 13:33:29.202 [java] [DEBUG] Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.implementation13
+12-04-2021 13:33:31.134 [java] [DEBUG] Executing 'ValidateResultNull' using 'class org.example.TestImplementation.implementation14
+12-04-2021 13:33:31.184 [java] [INFO] Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted
+12-04-2021 13:33:32.521 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-04-2021 13:33:32.588 [html-report] [INFO] Successfully generated html-report to => C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\reports\html-report\index.html
+12-04-2021 13:33:32.588 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+12-04-2021 13:33:32.588 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-04-2021 13:33:33.344 [Gauge] [DEBUG] Runner with PID:32664 has exited
+12-04-2021 13:33:33.344 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 13:33:33.344 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 13:33:33.345 [Gauge] [INFO] 
+Total time taken: 35.084s
+12-04-2021 14:37:22.307 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\.gauge\screenshots
+12-04-2021 14:37:22.464 [Gauge] [DEBUG] Plugin java is already installed.
+12-04-2021 14:37:22.478 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-04-2021 14:37:22.544 [Gauge] [DEBUG] Parsing started.
+12-04-2021 14:37:22.544 [Gauge] [DEBUG] Started concepts parsing.
+12-04-2021 14:37:22.711 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-04-2021 14:37:22.712 [Gauge] [DEBUG] Started specifications parsing.
+12-04-2021 14:37:22.716 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-04-2021 14:37:22.719 [Gauge] [DEBUG] Parsing completed.
+12-04-2021 14:37:23.462 [java] [DEBUG] ***** Printing Properties/Env Values *****
+12-04-2021 14:37:23.462 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+12-04-2021 14:37:23.462 [java] [DEBUG] JAVA_HOME: 
+12-04-2021 14:37:23.462 [java] [DEBUG] gauge_project_root: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+12-04-2021 14:37:23.462 [java] [DEBUG] gauge_parallel_streams_count: 4
+12-04-2021 14:37:23.462 [java] [DEBUG] gauge_reports_dir: reports
+12-04-2021 14:37:23.463 [java] [DEBUG] overwrite_reports: true
+12-04-2021 14:37:23.463 [java] [DEBUG] logs_directory: logs
+12-04-2021 14:37:23.463 [java] [DEBUG] enable_multithreading: false
+12-04-2021 14:37:23.463 [java] [DEBUG] gauge_specs_dir: specs
+12-04-2021 14:37:23.463 [java] [DEBUG] csv_delimiter: ,
+12-04-2021 14:37:23.463 [java] [DEBUG] gauge_java_home: 
+12-04-2021 14:37:23.463 [java] [DEBUG] gauge_custom_build_path: 
+12-04-2021 14:37:23.463 [java] [DEBUG] gauge_additional_libs: libs/*
+12-04-2021 14:37:23.463 [java] [DEBUG] gauge_jvm_args: 
+12-04-2021 14:37:23.463 [java] [DEBUG] gauge_custom_compile_dir: 
+12-04-2021 14:37:23.463 [java] [DEBUG] gauge_clear_state_level: scenario
+12-04-2021 14:37:23.463 [java] [DEBUG] ***** END *****
+12-04-2021 14:37:23.799 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+12-04-2021 14:37:23.799 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+12-04-2021 14:37:23.799 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\target\test-classes;C:\Users\Sergio Guerrero\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\Sergio Guerrero\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sergio Guerrero\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\Sergio Guerrero\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Sergio Guerrero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Sergio Guerrero\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Sergio Guerrero\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+12-04-2021 14:37:23.810 [java] [DEBUG] found java executable in java.exe
+12-04-2021 14:37:23.810 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+12-04-2021 14:37:23.810 [java] [DEBUG] stdout/stderr is logged to logs\36976-java.exe.out
+12-04-2021 14:37:24.766 [Gauge] [DEBUG] Checking updates...
+12-04-2021 14:37:24.815 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 14:37:25.284 [java] [DEBUG] multithreading is set to false
+12-04-2021 14:37:25.952 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 14:37:26.574 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 14:37:26.990 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+12-04-2021 14:37:27.498 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+12-04-2021 14:37:27.499 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+12-04-2021 14:37:27.499 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-04-2021 14:37:30.314 [java] [DEBUG] gauge-java took 5025milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+12-04-2021 14:37:30.314 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 5025
+12-04-2021 14:37:30.314 [java] [DEBUG] starting gRPC server...
+12-04-2021 14:37:32.408 [java] [DEBUG] started gRPC server on port 62779
+12-04-2021 14:37:32.409 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62779
+12-04-2021 14:37:32.835 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62779
+12-04-2021 14:37:32.858 [Gauge] [DEBUG] Validation started.
+12-04-2021 14:37:36.210 [java] [DEBUG] Scanning packages for steps
+12-04-2021 14:37:36.268 [java] [DEBUG] Comparing 'org.example.TestImplementation.cleanSarchElement' and 'org.example.TestImplementation.cleanSarchElement'
+12-04-2021 14:37:36.268 [java] [DEBUG] Found CleanSearch in current project scope.
+12-04-2021 14:37:36.268 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation9' and 'org.example.TestImplementation.implementation9'
+12-04-2021 14:37:36.268 [java] [DEBUG] Found ClickSearch in current project scope.
+12-04-2021 14:37:36.268 [java] [DEBUG] Comparing 'org.example.TestImplementation.clickSubmitJob' and 'org.example.TestImplementation.clickSubmitJob'
+12-04-2021 14:37:36.268 [java] [DEBUG] Found ClickIntheSearchButton in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation8' and 'org.example.TestImplementation.implementation8'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found SeekNewJob in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.navigationCommand' and 'org.example.TestImplementation.navigationCommand'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found BackHomePage in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.acceptCookPage' and 'org.example.TestImplementation.acceptCookPage'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found AcceptCooking in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation14' and 'org.example.TestImplementation.implementation14'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found ValidateResultNull in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation13' and 'org.example.TestImplementation.implementation13'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found ClicButtonJobNull in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.setUrl' and 'org.example.TestImplementation.setUrl'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found NavigateUrl {} in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.countJobs' and 'org.example.TestImplementation.countJobs'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found NumberOfElementInThePage in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.searchJobRecommend' and 'org.example.TestImplementation.searchJobRecommend'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found Search the job in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation10' and 'org.example.TestImplementation.implementation10'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found CountTheQaJOb in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation12' and 'org.example.TestImplementation.implementation12'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found SearchNullJob in current project scope.
+12-04-2021 14:37:36.305 [java] [DEBUG] Comparing 'org.example.TestImplementation.implementation11' and 'org.example.TestImplementation.implementation11'
+12-04-2021 14:37:36.305 [java] [DEBUG] Found JobNullback in current project scope.
+12-04-2021 14:37:36.306 [java] [DEBUG] Scanning packages for hooks
+12-04-2021 14:37:36.318 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+12-04-2021 14:37:36.318 [java] [DEBUG] 	NavigateUrl {} : public void setUrl(Object arg0)
+12-04-2021 14:37:36.318 [java] [DEBUG] 	ClickIntheSearchButton : public void clickSubmitJob()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	SearchNullJob : public void implementation12()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	CleanSearch : public void cleanSarchElement()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	NumberOfElementInThePage : public void countJobs()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	CountTheQaJOb : public void implementation10()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	BackHomePage : public void navigationCommand()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	ClickSearch : public void implementation9()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	AcceptCooking : public void acceptCookPage()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	JobNullback : public void implementation11()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	Search the job : public void searchJobRecommend()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	SeekNewJob : public void implementation8()
+12-04-2021 14:37:36.318 [java] [DEBUG] 	ValidateResultNull : public void implementation14()
+12-04-2021 14:37:36.319 [java] [DEBUG] 	ClicButtonJobNull : public void implementation13()
+12-04-2021 14:37:41.446 [Gauge] [DEBUG] Validation completed.
+12-04-2021 14:37:41.450 [Gauge] [DEBUG] Run started
+12-04-2021 14:37:41.454 [Gauge] [DEBUG] Starting Html Report plugin
+12-04-2021 14:37:41.532 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50043
+12-04-2021 14:37:41.533 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50043
+12-04-2021 14:37:41.536 [Gauge] [DEBUG] Initialising suite data store.
+12-04-2021 14:37:44.733 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 44874
+12-04-2021 14:37:44.734 [java] [ERROR] Only local connections are allowed.
+12-04-2021 14:37:44.734 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 14:37:44.762 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 14:37:47.777 [java] [ERROR] Apr 12, 2021 2:37:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 14:37:47.777 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 14:37:47.957 [java] [DEBUG] Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.setUrl
+12-04-2021 14:37:48.357 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 14249
+12-04-2021 14:37:48.357 [java] [ERROR] Only local connections are allowed.
+12-04-2021 14:37:48.357 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 14:37:48.442 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 14:37:50.859 [java] [ERROR] Apr 12, 2021 2:37:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 14:37:50.859 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 14:37:58.257 [java] [DEBUG] Executing 'AcceptCooking' using 'class org.example.TestImplementation.acceptCookPage
+12-04-2021 14:37:58.836 [java] [DEBUG] Executing 'Search the job' using 'class org.example.TestImplementation.searchJobRecommend
+12-04-2021 14:37:59.361 [java] [DEBUG] Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.clickSubmitJob
+12-04-2021 14:38:07.089 [java] [DEBUG] Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.countJobs
+12-04-2021 14:38:07.535 [java] [INFO] ***************************
+12-04-2021 14:38:07.535 [java] [INFO] Total of JOB with the same atribute are: 21
+12-04-2021 14:38:08.175 [java] [DEBUG] Executing 'BackHomePage' using 'class org.example.TestImplementation.navigationCommand
+12-04-2021 14:38:10.579 [java] [DEBUG] Executing 'CleanSearch' using 'class org.example.TestImplementation.cleanSarchElement
+12-04-2021 14:38:10.790 [java] [DEBUG] Executing 'SeekNewJob' using 'class org.example.TestImplementation.implementation8
+12-04-2021 14:38:11.040 [java] [DEBUG] Executing 'ClickSearch' using 'class org.example.TestImplementation.implementation9
+12-04-2021 14:38:15.503 [java] [DEBUG] Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.implementation10
+12-04-2021 14:38:15.659 [java] [INFO] *****************************
+12-04-2021 14:38:15.659 [java] [INFO] Quantity of Job: 364
+12-04-2021 14:38:15.687 [java] [DEBUG] Executing 'JobNullback' using 'class org.example.TestImplementation.implementation11
+12-04-2021 14:38:18.834 [java] [DEBUG] Executing 'SearchNullJob' using 'class org.example.TestImplementation.implementation12
+12-04-2021 14:38:19.001 [java] [DEBUG] Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.implementation13
+12-04-2021 14:38:21.613 [java] [DEBUG] Executing 'ValidateResultNull' using 'class org.example.TestImplementation.implementation14
+12-04-2021 14:38:21.684 [java] [INFO] Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted
+12-04-2021 14:38:23.412 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-04-2021 14:38:23.601 [html-report] [INFO] Successfully generated html-report to => C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\reports\html-report\index.html
+12-04-2021 14:38:23.602 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+12-04-2021 14:38:23.602 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-04-2021 14:38:24.350 [Gauge] [DEBUG] Runner with PID:36976 has exited
+12-04-2021 14:38:24.350 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 14:38:24.350 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 14:38:24.350 [Gauge] [INFO] 
+Total time taken: 41.951s
+12-04-2021 14:52:58.151 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\.gauge\screenshots
+12-04-2021 14:52:58.180 [Gauge] [DEBUG] Plugin java is already installed.
+12-04-2021 14:52:58.183 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-04-2021 14:52:58.189 [Gauge] [DEBUG] Parsing started.
+12-04-2021 14:52:58.189 [Gauge] [DEBUG] Started concepts parsing.
+12-04-2021 14:52:58.207 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-04-2021 14:52:58.216 [Gauge] [DEBUG] Started specifications parsing.
+12-04-2021 14:52:58.219 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-04-2021 14:52:58.225 [Gauge] [DEBUG] Parsing completed.
+12-04-2021 14:52:58.324 [java] [DEBUG] ***** Printing Properties/Env Values *****
+12-04-2021 14:52:58.324 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+12-04-2021 14:52:58.324 [java] [DEBUG] JAVA_HOME: 
+12-04-2021 14:52:58.325 [java] [DEBUG] gauge_project_root: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_parallel_streams_count: 4
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_reports_dir: reports
+12-04-2021 14:52:58.326 [java] [DEBUG] overwrite_reports: true
+12-04-2021 14:52:58.326 [java] [DEBUG] logs_directory: logs
+12-04-2021 14:52:58.326 [java] [DEBUG] enable_multithreading: false
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_specs_dir: specs
+12-04-2021 14:52:58.326 [java] [DEBUG] csv_delimiter: ,
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_java_home: 
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_custom_build_path: 
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_additional_libs: libs/*
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_jvm_args: 
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_custom_compile_dir: 
+12-04-2021 14:52:58.326 [java] [DEBUG] gauge_clear_state_level: scenario
+12-04-2021 14:52:58.326 [java] [DEBUG] ***** END *****
+12-04-2021 14:52:58.375 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+12-04-2021 14:52:58.376 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+12-04-2021 14:52:58.376 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\target\test-classes;C:\Users\Sergio Guerrero\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\Sergio Guerrero\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sergio Guerrero\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\Sergio Guerrero\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Sergio Guerrero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Sergio Guerrero\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Sergio Guerrero\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+12-04-2021 14:52:58.381 [java] [DEBUG] found java executable in java.exe
+12-04-2021 14:52:58.381 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+12-04-2021 14:52:58.381 [java] [DEBUG] stdout/stderr is logged to logs\33120-java.exe.out
+12-04-2021 14:52:59.393 [java] [DEBUG] multithreading is set to false
+12-04-2021 14:52:59.451 [Gauge] [DEBUG] Checking updates...
+12-04-2021 14:52:59.461 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 14:53:00.104 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 14:53:00.447 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+12-04-2021 14:53:00.512 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 14:53:00.798 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+12-04-2021 14:53:00.798 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+12-04-2021 14:53:00.798 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-04-2021 14:53:03.727 [java] [DEBUG] gauge-java took 4255milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+12-04-2021 14:53:03.727 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 4255
+12-04-2021 14:53:03.727 [java] [DEBUG] starting gRPC server...
+12-04-2021 14:53:05.587 [java] [DEBUG] started gRPC server on port 55669
+12-04-2021 14:53:05.587 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55669
+12-04-2021 14:53:06.547 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55669
+12-04-2021 14:53:06.547 [Gauge] [DEBUG] Validation started.
+12-04-2021 14:53:10.901 [java] [DEBUG] Scanning packages for steps
+12-04-2021 14:53:10.906 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyNoJobFound' and 'org.example.TestImplementation.verifyNoJobFound'
+12-04-2021 14:53:10.941 [java] [DEBUG] Found ValidateResultNull in current project scope.
+12-04-2021 14:53:10.941 [java] [DEBUG] Comparing 'org.example.TestImplementation.cleanSarchElement' and 'org.example.TestImplementation.cleanSarchElement'
+12-04-2021 14:53:10.941 [java] [DEBUG] Found CleanSearch in current project scope.
+12-04-2021 14:53:10.941 [java] [DEBUG] Comparing 'org.example.TestImplementation.clickSubmitJob' and 'org.example.TestImplementation.clickSubmitJob'
+12-04-2021 14:53:10.941 [java] [DEBUG] Found ClickIntheSearchButton in current project scope.
+12-04-2021 14:53:10.941 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyCountJob' and 'org.example.TestImplementation.verifyCountJob'
+12-04-2021 14:53:10.941 [java] [DEBUG] Found CountTheQaJOb in current project scope.
+12-04-2021 14:53:10.941 [java] [DEBUG] Comparing 'org.example.TestImplementation.navigationCommand' and 'org.example.TestImplementation.navigationCommand'
+12-04-2021 14:53:10.941 [java] [DEBUG] Found BackHomePage in current project scope.
+12-04-2021 14:53:10.941 [java] [DEBUG] Comparing 'org.example.TestImplementation.navigationCommandBack' and 'org.example.TestImplementation.navigationCommandBack'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found JobNullback in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyCountJobs' and 'org.example.TestImplementation.verifyCountJobs'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found NumberOfElementInThePage in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySearchJob' and 'org.example.TestImplementation.verifySearchJob'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found ClicButtonJobNull in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.acceptCookPage' and 'org.example.TestImplementation.acceptCookPage'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found AcceptCooking in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.clickSubmit' and 'org.example.TestImplementation.clickSubmit'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found ClickSearch in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyJobNull' and 'org.example.TestImplementation.verifyJobNull'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found SearchNullJob in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.setUrl' and 'org.example.TestImplementation.setUrl'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found NavigateUrl {} in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySeekJob' and 'org.example.TestImplementation.verifySeekJob'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found SeekNewJob in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySearchJobRecommend' and 'org.example.TestImplementation.verifySearchJobRecommend'
+12-04-2021 14:53:10.942 [java] [DEBUG] Found Search the job in current project scope.
+12-04-2021 14:53:10.942 [java] [DEBUG] Scanning packages for hooks
+12-04-2021 14:53:10.942 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+12-04-2021 14:53:10.942 [java] [DEBUG] 	NavigateUrl {} : public void setUrl(Object arg0)
+12-04-2021 14:53:10.942 [java] [DEBUG] 	ClickIntheSearchButton : public void clickSubmitJob()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	SearchNullJob : public void verifyJobNull()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	CleanSearch : public void cleanSarchElement()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	NumberOfElementInThePage : public void verifyCountJobs()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	CountTheQaJOb : public void verifyCountJob()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	BackHomePage : public void navigationCommand()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	ClickSearch : public void clickSubmit()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	AcceptCooking : public void acceptCookPage()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	JobNullback : public void navigationCommandBack()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	Search the job : public void verifySearchJobRecommend()
+12-04-2021 14:53:10.942 [java] [DEBUG] 	SeekNewJob : public void verifySeekJob()
+12-04-2021 14:53:10.943 [java] [DEBUG] 	ValidateResultNull : public void verifyNoJobFound()
+12-04-2021 14:53:10.943 [java] [DEBUG] 	ClicButtonJobNull : public void verifySearchJob()
+12-04-2021 14:53:15.775 [Gauge] [DEBUG] Validation completed.
+12-04-2021 14:53:15.780 [Gauge] [DEBUG] Run started
+12-04-2021 14:53:15.783 [Gauge] [DEBUG] Starting Html Report plugin
+12-04-2021 14:53:15.851 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55498
+12-04-2021 14:53:15.852 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55498
+12-04-2021 14:53:15.853 [Gauge] [DEBUG] Initialising suite data store.
+12-04-2021 14:53:17.074 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 18826
+12-04-2021 14:53:17.074 [java] [ERROR] Only local connections are allowed.
+12-04-2021 14:53:17.074 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 14:53:17.094 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 14:53:20.066 [java] [ERROR] Apr 12, 2021 2:53:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 14:53:20.066 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 14:53:20.168 [java] [DEBUG] Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.setUrl
+12-04-2021 14:53:20.309 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 14479
+12-04-2021 14:53:20.309 [java] [ERROR] Only local connections are allowed.
+12-04-2021 14:53:20.309 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 14:53:20.326 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 14:53:22.687 [java] [ERROR] Apr 12, 2021 2:53:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 14:53:22.687 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 14:53:29.104 [java] [DEBUG] Executing 'AcceptCooking' using 'class org.example.TestImplementation.acceptCookPage
+12-04-2021 14:53:29.347 [java] [DEBUG] Executing 'Search the job' using 'class org.example.TestImplementation.verifySearchJobRecommend
+12-04-2021 14:53:30.236 [java] [DEBUG] Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.clickSubmitJob
+12-04-2021 14:53:35.840 [java] [DEBUG] Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.verifyCountJobs
+12-04-2021 14:53:36.293 [java] [INFO] ***************************
+12-04-2021 14:53:36.293 [java] [INFO] Total of JOB with the same atribute are: 20
+12-04-2021 14:53:36.842 [java] [DEBUG] Executing 'BackHomePage' using 'class org.example.TestImplementation.navigationCommand
+12-04-2021 14:53:39.648 [java] [DEBUG] Executing 'CleanSearch' using 'class org.example.TestImplementation.cleanSarchElement
+12-04-2021 14:53:39.840 [java] [DEBUG] Executing 'SeekNewJob' using 'class org.example.TestImplementation.verifySeekJob
+12-04-2021 14:53:40.044 [java] [DEBUG] Executing 'ClickSearch' using 'class org.example.TestImplementation.clickSubmit
+12-04-2021 14:53:43.739 [java] [DEBUG] Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.verifyCountJob
+12-04-2021 14:53:43.838 [java] [INFO] *****************************
+12-04-2021 14:53:43.838 [java] [INFO] Quantity of Job: 359
+12-04-2021 14:53:43.880 [java] [DEBUG] Executing 'JobNullback' using 'class org.example.TestImplementation.navigationCommandBack
+12-04-2021 14:53:45.857 [java] [DEBUG] Executing 'SearchNullJob' using 'class org.example.TestImplementation.verifyJobNull
+12-04-2021 14:53:46.004 [java] [DEBUG] Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.verifySearchJob
+12-04-2021 14:53:48.296 [java] [DEBUG] Executing 'ValidateResultNull' using 'class org.example.TestImplementation.verifyNoJobFound
+12-04-2021 14:53:48.340 [java] [INFO] Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted
+12-04-2021 14:53:49.809 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-04-2021 14:53:49.913 [html-report] [INFO] Successfully generated html-report to => C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\reports\html-report\index.html
+12-04-2021 14:53:49.913 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+12-04-2021 14:53:49.913 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-04-2021 14:53:50.663 [Gauge] [DEBUG] Runner with PID:33120 has exited
+12-04-2021 14:53:50.663 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 14:53:50.663 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 14:53:50.663 [Gauge] [INFO] 
+Total time taken: 34.017s
+12-04-2021 15:21:34.320 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\.gauge\screenshots
+12-04-2021 15:21:34.344 [Gauge] [DEBUG] Plugin java is already installed.
+12-04-2021 15:21:34.346 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-04-2021 15:21:34.351 [Gauge] [DEBUG] Parsing started.
+12-04-2021 15:21:34.351 [Gauge] [DEBUG] Started concepts parsing.
+12-04-2021 15:21:34.367 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-04-2021 15:21:34.368 [Gauge] [DEBUG] Started specifications parsing.
+12-04-2021 15:21:34.370 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-04-2021 15:21:34.371 [Gauge] [DEBUG] Parsing completed.
+12-04-2021 15:21:34.534 [java] [DEBUG] ***** Printing Properties/Env Values *****
+12-04-2021 15:21:34.534 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+12-04-2021 15:21:34.534 [java] [DEBUG] JAVA_HOME: 
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_project_root: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_parallel_streams_count: 4
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_reports_dir: reports
+12-04-2021 15:21:34.534 [java] [DEBUG] overwrite_reports: true
+12-04-2021 15:21:34.534 [java] [DEBUG] logs_directory: logs
+12-04-2021 15:21:34.534 [java] [DEBUG] enable_multithreading: false
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_specs_dir: specs
+12-04-2021 15:21:34.534 [java] [DEBUG] csv_delimiter: ,
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_java_home: 
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_custom_build_path: 
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_additional_libs: libs/*
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_jvm_args: 
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_custom_compile_dir: 
+12-04-2021 15:21:34.534 [java] [DEBUG] gauge_clear_state_level: scenario
+12-04-2021 15:21:34.535 [java] [DEBUG] ***** END *****
+12-04-2021 15:21:34.562 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+12-04-2021 15:21:34.562 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+12-04-2021 15:21:34.562 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\target\test-classes;C:\Users\Sergio Guerrero\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\Sergio Guerrero\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sergio Guerrero\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\Sergio Guerrero\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Sergio Guerrero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Sergio Guerrero\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Sergio Guerrero\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+12-04-2021 15:21:34.567 [java] [DEBUG] found java executable in java.exe
+12-04-2021 15:21:34.576 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+12-04-2021 15:21:34.576 [java] [DEBUG] stdout/stderr is logged to logs\8488-java.exe.out
+12-04-2021 15:21:35.478 [Gauge] [DEBUG] Checking updates...
+12-04-2021 15:21:35.485 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 15:21:35.642 [java] [DEBUG] multithreading is set to false
+12-04-2021 15:21:36.045 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 15:21:36.259 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 15:21:36.719 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+12-04-2021 15:21:37.033 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+12-04-2021 15:21:37.033 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+12-04-2021 15:21:37.033 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-04-2021 15:21:39.803 [java] [DEBUG] gauge-java took 4116milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+12-04-2021 15:21:39.803 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 4116
+12-04-2021 15:21:39.806 [java] [DEBUG] starting gRPC server...
+12-04-2021 15:21:41.457 [java] [DEBUG] started gRPC server on port 58516
+12-04-2021 15:21:41.465 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 58516
+12-04-2021 15:21:41.809 [Gauge] [DEBUG] Successfully made the connection with runner with port: 58516
+12-04-2021 15:21:41.815 [Gauge] [DEBUG] Validation started.
+12-04-2021 15:21:43.972 [java] [DEBUG] Scanning packages for steps
+12-04-2021 15:21:44.002 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyNoJobFound' and 'org.example.TestImplementation.verifyNoJobFound'
+12-04-2021 15:21:44.002 [java] [DEBUG] Found ValidateResultNull in current project scope.
+12-04-2021 15:21:44.003 [java] [DEBUG] Comparing 'org.example.TestImplementation.cleanSarchElement' and 'org.example.TestImplementation.cleanSarchElement'
+12-04-2021 15:21:44.003 [java] [DEBUG] Found CleanSearch in current project scope.
+12-04-2021 15:21:44.003 [java] [DEBUG] Comparing 'org.example.TestImplementation.clickSubmitJob' and 'org.example.TestImplementation.clickSubmitJob'
+12-04-2021 15:21:44.003 [java] [DEBUG] Found ClickIntheSearchButton in current project scope.
+12-04-2021 15:21:44.006 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyCountJob' and 'org.example.TestImplementation.verifyCountJob'
+12-04-2021 15:21:44.006 [java] [DEBUG] Found CountTheQaJOb in current project scope.
+12-04-2021 15:21:44.006 [java] [DEBUG] Comparing 'org.example.TestImplementation.navigationCommand' and 'org.example.TestImplementation.navigationCommand'
+12-04-2021 15:21:44.006 [java] [DEBUG] Found BackHomePage in current project scope.
+12-04-2021 15:21:44.006 [java] [DEBUG] Comparing 'org.example.TestImplementation.navigationCommandBack' and 'org.example.TestImplementation.navigationCommandBack'
+12-04-2021 15:21:44.006 [java] [DEBUG] Found JobNullback in current project scope.
+12-04-2021 15:21:44.006 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyCountJobs' and 'org.example.TestImplementation.verifyCountJobs'
+12-04-2021 15:21:44.006 [java] [DEBUG] Found NumberOfElementInThePage in current project scope.
+12-04-2021 15:21:44.013 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySearchJob' and 'org.example.TestImplementation.verifySearchJob'
+12-04-2021 15:21:44.013 [java] [DEBUG] Found ClicButtonJobNull in current project scope.
+12-04-2021 15:21:44.013 [java] [DEBUG] Comparing 'org.example.TestImplementation.acceptCookPage' and 'org.example.TestImplementation.acceptCookPage'
+12-04-2021 15:21:44.013 [java] [DEBUG] Found AcceptCooking in current project scope.
+12-04-2021 15:21:44.013 [java] [DEBUG] Comparing 'org.example.TestImplementation.clickSubmit' and 'org.example.TestImplementation.clickSubmit'
+12-04-2021 15:21:44.013 [java] [DEBUG] Found ClickSearch in current project scope.
+12-04-2021 15:21:44.013 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyJobNull' and 'org.example.TestImplementation.verifyJobNull'
+12-04-2021 15:21:44.013 [java] [DEBUG] Found SearchNullJob in current project scope.
+12-04-2021 15:21:44.063 [java] [DEBUG] Comparing 'org.example.TestImplementation.setUrl' and 'org.example.TestImplementation.setUrl'
+12-04-2021 15:21:44.063 [java] [DEBUG] Found NavigateUrl {} in current project scope.
+12-04-2021 15:21:44.063 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySeekJob' and 'org.example.TestImplementation.verifySeekJob'
+12-04-2021 15:21:44.063 [java] [DEBUG] Found SeekNewJob in current project scope.
+12-04-2021 15:21:44.063 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySearchJobRecommend' and 'org.example.TestImplementation.verifySearchJobRecommend'
+12-04-2021 15:21:44.063 [java] [DEBUG] Found Search the job in current project scope.
+12-04-2021 15:21:44.063 [java] [DEBUG] Scanning packages for hooks
+12-04-2021 15:21:44.101 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+12-04-2021 15:21:44.101 [java] [DEBUG] 	NavigateUrl {} : public void setUrl(Object arg0)
+12-04-2021 15:21:44.101 [java] [DEBUG] 	ClickIntheSearchButton : public void clickSubmitJob()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	SearchNullJob : public void verifyJobNull()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	CleanSearch : public void cleanSarchElement()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	NumberOfElementInThePage : public void verifyCountJobs()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	CountTheQaJOb : public void verifyCountJob()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	BackHomePage : public void navigationCommand()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	ClickSearch : public void clickSubmit()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	AcceptCooking : public void acceptCookPage()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	JobNullback : public void navigationCommandBack()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	Search the job : public void verifySearchJobRecommend()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	SeekNewJob : public void verifySeekJob()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	ValidateResultNull : public void verifyNoJobFound()
+12-04-2021 15:21:44.101 [java] [DEBUG] 	ClicButtonJobNull : public void verifySearchJob()
+12-04-2021 15:21:47.655 [Gauge] [DEBUG] Validation completed.
+12-04-2021 15:21:47.660 [Gauge] [DEBUG] Run started
+12-04-2021 15:21:47.663 [Gauge] [DEBUG] Starting Html Report plugin
+12-04-2021 15:21:47.718 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62573
+12-04-2021 15:21:47.719 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 62573
+12-04-2021 15:21:47.720 [Gauge] [DEBUG] Initialising suite data store.
+12-04-2021 15:21:48.903 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 32760
+12-04-2021 15:21:48.903 [java] [ERROR] Only local connections are allowed.
+12-04-2021 15:21:48.903 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 15:21:48.915 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 15:21:51.642 [java] [ERROR] Apr 12, 2021 3:21:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 15:21:51.642 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 15:21:52.272 [java] [DEBUG] Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.setUrl
+12-04-2021 15:21:52.408 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 12506
+12-04-2021 15:21:52.408 [java] [ERROR] Only local connections are allowed.
+12-04-2021 15:21:52.408 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 15:21:52.420 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 15:21:54.632 [java] [ERROR] Apr 12, 2021 3:21:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 15:21:54.632 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 15:22:00.843 [java] [DEBUG] Executing 'AcceptCooking' using 'class org.example.TestImplementation.acceptCookPage
+12-04-2021 15:22:01.052 [java] [DEBUG] Executing 'Search the job' using 'class org.example.TestImplementation.verifySearchJobRecommend
+12-04-2021 15:22:01.859 [java] [DEBUG] Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.clickSubmitJob
+12-04-2021 15:22:09.842 [java] [DEBUG] Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.verifyCountJobs
+12-04-2021 15:22:10.292 [java] [INFO] ***************************
+12-04-2021 15:22:10.292 [java] [INFO] Total of JOB with the same atribute are: 20
+12-04-2021 15:22:11.200 [java] [DEBUG] Executing 'BackHomePage' using 'class org.example.TestImplementation.navigationCommand
+12-04-2021 15:22:12.323 [java] [DEBUG] Executing 'CleanSearch' using 'class org.example.TestImplementation.cleanSarchElement
+12-04-2021 15:22:15.231 [java] [DEBUG] Executing 'SeekNewJob' using 'class org.example.TestImplementation.verifySeekJob
+12-04-2021 15:22:15.548 [java] [DEBUG] Executing 'ClickSearch' using 'class org.example.TestImplementation.clickSubmit
+12-04-2021 15:22:19.574 [java] [DEBUG] Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.verifyCountJob
+12-04-2021 15:22:19.706 [java] [INFO] *****************************
+12-04-2021 15:22:19.706 [java] [INFO] Quantity of Job: 359
+12-04-2021 15:22:19.750 [java] [DEBUG] Executing 'JobNullback' using 'class org.example.TestImplementation.navigationCommandBack
+12-04-2021 15:22:21.673 [java] [DEBUG] Executing 'SearchNullJob' using 'class org.example.TestImplementation.verifyJobNull
+12-04-2021 15:22:21.810 [java] [DEBUG] Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.verifySearchJob
+12-04-2021 15:22:23.309 [java] [DEBUG] Executing 'ValidateResultNull' using 'class org.example.TestImplementation.verifyNoJobFound
+12-04-2021 15:22:23.402 [java] [INFO] Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted
+12-04-2021 15:22:27.630 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-04-2021 15:22:27.750 [html-report] [INFO] Successfully generated html-report to => C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\reports\html-report\index.html
+12-04-2021 15:22:27.750 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+12-04-2021 15:22:27.750 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-04-2021 15:22:28.507 [Gauge] [DEBUG] Runner with PID:8488 has exited
+12-04-2021 15:22:28.507 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 15:22:28.507 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 15:22:28.507 [Gauge] [INFO] 
+Total time taken: 39.961s
+12-04-2021 15:41:09.976 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\.gauge\screenshots
+12-04-2021 15:41:09.997 [Gauge] [DEBUG] Plugin java is already installed.
+12-04-2021 15:41:09.999 [Gauge] [DEBUG] Plugin html-report is already installed.
+12-04-2021 15:41:10.003 [Gauge] [DEBUG] Parsing started.
+12-04-2021 15:41:10.003 [Gauge] [DEBUG] Started concepts parsing.
+12-04-2021 15:41:10.027 [Gauge] [DEBUG] 0 concepts parsing completed.
+12-04-2021 15:41:10.027 [Gauge] [DEBUG] Started specifications parsing.
+12-04-2021 15:41:10.029 [Gauge] [DEBUG] 1 specifications parsing completed.
+12-04-2021 15:41:10.029 [Gauge] [DEBUG] Parsing completed.
+12-04-2021 15:41:10.097 [java] [DEBUG] ***** Printing Properties/Env Values *****
+12-04-2021 15:41:10.098 [java] [DEBUG] PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Gauge\bin;C:\Users\Sergio Guerrero\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sergio Guerrero\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sergio Guerrero\AppData\Roaming\npm;C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\screenshot\0.0.1
+12-04-2021 15:41:10.098 [java] [DEBUG] JAVA_HOME: 
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_project_root: C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_parallel_streams_count: 4
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_reports_dir: reports
+12-04-2021 15:41:10.098 [java] [DEBUG] overwrite_reports: true
+12-04-2021 15:41:10.098 [java] [DEBUG] logs_directory: logs
+12-04-2021 15:41:10.098 [java] [DEBUG] enable_multithreading: false
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_specs_dir: specs
+12-04-2021 15:41:10.098 [java] [DEBUG] csv_delimiter: ,
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_java_home: 
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_custom_build_path: 
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_additional_libs: libs/*
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_jvm_args: 
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_custom_compile_dir: 
+12-04-2021 15:41:10.098 [java] [DEBUG] gauge_clear_state_level: scenario
+12-04-2021 15:41:10.098 [java] [DEBUG] ***** END *****
+12-04-2021 15:41:10.139 [java] [ERROR] exec: "mvn": executable file not found in %!P(MISSING)ATH%!(NOVERB)
+12-04-2021 15:41:10.139 [java] [ERROR] Installed version of gauge-java (0.7.13) does not match with dependency gauge-java () specified in pom.xml file
+12-04-2021 15:41:10.140 [java] [DEBUG] classpath set to C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\target\test-classes;C:\Users\Sergio Guerrero\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.13\gauge-java-0.7.13.jar;C:\Users\Sergio Guerrero\.m2\repository\com\github\javaparser\javaparser-core\3.16.2\javaparser-core-3.16.2.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sergio Guerrero\.m2\repository\org\json\json\20200518\json-20200518.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\protobuf\protobuf-java\3.13.0\protobuf-java-3.13.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-netty-shaded\1.33.0\grpc-netty-shaded-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-core\1.33.0\grpc-core-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\Sergio Guerrero\.m2\repository\io\perfmark\perfmark-api\0.19.0\perfmark-api-0.19.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf\1.33.0\grpc-protobuf-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-api\1.33.0\grpc-api-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-context\1.33.0\grpc-context-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\api\grpc\proto-google-common-protos\1.17.0\proto-google-common-protos-1.17.0.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-protobuf-lite\1.33.0\grpc-protobuf-lite-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\io\grpc\grpc-stub\1.33.0\grpc-stub-1.33.0.jar;C:\Users\Sergio Guerrero\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\assertj\assertj-core\3.10.0\assertj-core-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Sergio Guerrero\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Sergio Guerrero\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Sergio Guerrero\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Sergio Guerrero\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Sergio Guerrero\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Sergio Guerrero\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Sergio Guerrero\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Sergio Guerrero\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Sergio Guerrero\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Sergio Guerrero\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+12-04-2021 15:41:10.141 [java] [DEBUG] found java executable in java.exe
+12-04-2021 15:41:10.150 [java] [DEBUG] running - java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+12-04-2021 15:41:10.150 [java] [DEBUG] stdout/stderr is logged to logs\33384-java.exe.out
+12-04-2021 15:41:11.200 [java] [DEBUG] multithreading is set to false
+12-04-2021 15:41:11.214 [Gauge] [DEBUG] Checking updates...
+12-04-2021 15:41:11.219 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 15:41:11.950 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 15:41:12.189 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=windows&a=amd64
+12-04-2021 15:41:12.191 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+12-04-2021 15:41:12.503 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+12-04-2021 15:41:12.503 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+12-04-2021 15:41:12.503 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-04-2021 15:41:14.958 [java] [DEBUG] gauge-java took 3715milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+12-04-2021 15:41:14.958 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 3715
+12-04-2021 15:41:14.958 [java] [DEBUG] starting gRPC server...
+12-04-2021 15:41:16.924 [java] [DEBUG] started gRPC server on port 57650
+12-04-2021 15:41:16.924 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 57650
+12-04-2021 15:41:17.294 [Gauge] [DEBUG] Successfully made the connection with runner with port: 57650
+12-04-2021 15:41:17.295 [Gauge] [DEBUG] Validation started.
+12-04-2021 15:41:19.989 [java] [DEBUG] Scanning packages for steps
+12-04-2021 15:41:20.071 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyNoJobFound' and 'org.example.TestImplementation.verifyNoJobFound'
+12-04-2021 15:41:20.071 [java] [DEBUG] Found ValidateResultNull in current project scope.
+12-04-2021 15:41:20.071 [java] [DEBUG] Comparing 'org.example.TestImplementation.cleanSarchElement' and 'org.example.TestImplementation.cleanSarchElement'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found CleanSearch in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.clickSubmitJob' and 'org.example.TestImplementation.clickSubmitJob'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found ClickIntheSearchButton in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyCountJob' and 'org.example.TestImplementation.verifyCountJob'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found CountTheQaJOb in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.navigationCommand' and 'org.example.TestImplementation.navigationCommand'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found BackHomePage in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.navigationCommandBack' and 'org.example.TestImplementation.navigationCommandBack'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found JobNullback in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyCountJobs' and 'org.example.TestImplementation.verifyCountJobs'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found NumberOfElementInThePage in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySearchJob' and 'org.example.TestImplementation.verifySearchJob'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found ClicButtonJobNull in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.acceptCookPage' and 'org.example.TestImplementation.acceptCookPage'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found AcceptCooking in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.clickSubmit' and 'org.example.TestImplementation.clickSubmit'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found ClickSearch in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifyJobNull' and 'org.example.TestImplementation.verifyJobNull'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found SearchNullJob in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.setUrl' and 'org.example.TestImplementation.setUrl'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found NavigateUrl {} in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySeekJob' and 'org.example.TestImplementation.verifySeekJob'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found SeekNewJob in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Comparing 'org.example.TestImplementation.verifySearchJobRecommend' and 'org.example.TestImplementation.verifySearchJobRecommend'
+12-04-2021 15:41:20.072 [java] [DEBUG] Found Search the job in current project scope.
+12-04-2021 15:41:20.072 [java] [DEBUG] Scanning packages for hooks
+12-04-2021 15:41:20.095 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+12-04-2021 15:41:20.095 [java] [DEBUG] 	NavigateUrl {} : public void setUrl(Object arg0)
+12-04-2021 15:41:20.095 [java] [DEBUG] 	ClickIntheSearchButton : public void clickSubmitJob()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	SearchNullJob : public void verifyJobNull()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	CleanSearch : public void cleanSarchElement()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	NumberOfElementInThePage : public void verifyCountJobs()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	CountTheQaJOb : public void verifyCountJob()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	BackHomePage : public void navigationCommand()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	ClickSearch : public void clickSubmit()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	AcceptCooking : public void acceptCookPage()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	JobNullback : public void navigationCommandBack()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	Search the job : public void verifySearchJobRecommend()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	SeekNewJob : public void verifySeekJob()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	ValidateResultNull : public void verifyNoJobFound()
+12-04-2021 15:41:20.095 [java] [DEBUG] 	ClicButtonJobNull : public void verifySearchJob()
+12-04-2021 15:41:24.051 [Gauge] [DEBUG] Validation completed.
+12-04-2021 15:41:24.054 [Gauge] [DEBUG] Run started
+12-04-2021 15:41:24.056 [Gauge] [DEBUG] Starting Html Report plugin
+12-04-2021 15:41:24.107 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61373
+12-04-2021 15:41:24.109 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61373
+12-04-2021 15:41:24.109 [Gauge] [DEBUG] Initialising suite data store.
+12-04-2021 15:41:25.127 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 7415
+12-04-2021 15:41:25.127 [java] [ERROR] Only local connections are allowed.
+12-04-2021 15:41:25.127 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 15:41:25.139 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 15:41:27.831 [java] [ERROR] Apr 12, 2021 3:41:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 15:41:27.831 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 15:41:28.498 [java] [DEBUG] Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.setUrl
+12-04-2021 15:41:28.693 [java] [ERROR] Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 33456
+12-04-2021 15:41:28.693 [java] [ERROR] Only local connections are allowed.
+12-04-2021 15:41:28.693 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+12-04-2021 15:41:28.738 [java] [ERROR] ChromeDriver was started successfully.
+12-04-2021 15:41:30.729 [java] [ERROR] Apr 12, 2021 3:41:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+12-04-2021 15:41:30.729 [java] [ERROR] INFO: Detected dialect: W3C
+12-04-2021 15:41:37.251 [java] [DEBUG] Executing 'AcceptCooking' using 'class org.example.TestImplementation.acceptCookPage
+12-04-2021 15:41:37.753 [java] [DEBUG] Executing 'Search the job' using 'class org.example.TestImplementation.verifySearchJobRecommend
+12-04-2021 15:41:38.128 [java] [DEBUG] Executing 'ClickIntheSearchButton' using 'class org.example.TestImplementation.clickSubmitJob
+12-04-2021 15:41:43.089 [java] [DEBUG] Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.verifyCountJobs
+12-04-2021 15:41:43.476 [java] [INFO] ***************************
+12-04-2021 15:41:43.476 [java] [INFO] Total of JOB with the same atribute are: 21
+12-04-2021 15:41:44.073 [java] [DEBUG] Executing 'BackHomePage' using 'class org.example.TestImplementation.navigationCommand
+12-04-2021 15:41:46.522 [java] [DEBUG] Executing 'CleanSearch' using 'class org.example.TestImplementation.cleanSarchElement
+12-04-2021 15:41:46.891 [java] [DEBUG] Executing 'SeekNewJob' using 'class org.example.TestImplementation.verifySeekJob
+12-04-2021 15:41:47.244 [java] [DEBUG] Executing 'ClickSearch' using 'class org.example.TestImplementation.clickSubmit
+12-04-2021 15:41:50.214 [java] [DEBUG] Executing 'CountTheQaJOb' using 'class org.example.TestImplementation.verifyCountJob
+12-04-2021 15:41:50.350 [java] [INFO] *****************************
+12-04-2021 15:41:50.350 [java] [INFO] Quantity of Job: 359
+12-04-2021 15:41:50.396 [java] [DEBUG] Executing 'JobNullback' using 'class org.example.TestImplementation.navigationCommandBack
+12-04-2021 15:41:52.463 [java] [DEBUG] Executing 'SearchNullJob' using 'class org.example.TestImplementation.verifyJobNull
+12-04-2021 15:41:52.692 [java] [DEBUG] Executing 'ClicButtonJobNull' using 'class org.example.TestImplementation.verifySearchJob
+12-04-2021 15:41:54.237 [java] [DEBUG] Executing 'ValidateResultNull' using 'class org.example.TestImplementation.verifyNoJobFound
+12-04-2021 15:41:54.334 [java] [INFO] Expect Result is : No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted
+12-04-2021 15:41:55.776 [html-report] [DEBUG] Transformed SuiteResult to report structure
+12-04-2021 15:41:55.883 [html-report] [INFO] Successfully generated html-report to => C:\Users\Sergio Guerrero\IdeaProjects\ProjectDemoTecoloco\reports\html-report\index.html
+12-04-2021 15:41:55.883 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\Sergio Guerrero\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+12-04-2021 15:41:55.883 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+12-04-2021 15:41:56.694 [Gauge] [DEBUG] Runner with PID:33384 has exited
+12-04-2021 15:41:56.694 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 15:41:56.694 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12-04-2021 15:41:56.697 [Gauge] [INFO] 
+Total time taken: 31.715s
