@@ -3,6 +3,8 @@ package org.example;
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
 import io.grpc.internal.JsonUtil;
+import org.assertj.core.api.Assert;
+import org.assertj.core.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 import java.util.NoSuchElementException;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestImplementation {
 
@@ -103,7 +107,7 @@ public class TestImplementation {
     @Step("SearchNullJob")
     public void implementation12() {
         WebElement searchBox3 = driver.findElement(By.name("Keywords"));
-        searchBox3.sendKeys("Relaxin");
+        searchBox3.sendKeys("Relaxing");
 
     }
 
@@ -115,14 +119,17 @@ public class TestImplementation {
     }
 
     @Step("ValidateResultNull")
-    public  void implementation14() {
-      //String word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
+    public void  implementation14() {
+      //boolean word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
 
         //System.out.println("Resultado: " + word);
 
-        //Boolean word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).isDisplayed();
-        //Boolean word2  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).isEnabled();
+        String word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
+        System.out.println("Test: " +word);
+        //String word2  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
 
+        //assertThat(word).isEqualTo("Jobs werer found to matach your criterial");
+         assertThat(word).isEqualTo("No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted");
 
 
 
