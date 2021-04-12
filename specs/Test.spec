@@ -36,3 +36,5 @@ Search job and count how many job displays.
 
 * ClicButtonJobNull
 
+* ValidateResultNull
+

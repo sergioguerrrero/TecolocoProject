@@ -3,11 +3,11 @@
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-{"logLevel":"debug","message":"gauge-java took 4941milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4941"}
+{"logLevel":"debug","message":"gauge-java took 4444milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4444"}
 {"logLevel":"debug","message":"starting gRPC server..."}
-{"logLevel":"debug","message":"started gRPC server on port 54271"}
-{"logLevel":"info","message":"Listening on port:54271"}
+{"logLevel":"debug","message":"started gRPC server on port 64738"}
+{"logLevel":"info","message":"Listening on port:64738"}
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'org.example.TestImplementation.implementation5' and 'org.example.TestImplementation.implementation5'"}
 {"logLevel":"debug","message":"Found NumberOfElementInThePage in current project scope."}
@@ -53,18 +53,18 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 {"logLevel":"debug","message":"\tSeekNewJob : public void implementation8()"}
 {"logLevel":"debug","message":"\tValidateResultNull : public boolean implementation14()"}
 {"logLevel":"debug","message":"\tClicButtonJobNull : public void implementation13()"}
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 11274
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 29790
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 11, 2021 11:57:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 12, 2021 12:16:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'NavigateUrl {}' using 'class org.example.TestImplementation.implementation1"}
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 34554
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 21574
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 11, 2021 11:57:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 12, 2021 12:16:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'AcceptCooking' using 'class org.example.TestImplementation.implementation2"}
 {"logLevel":"debug","message":"Executing 'Search the job' using 'class org.example.TestImplementation.implementation3"}
@@ -72,7 +72,8 @@ INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'NumberOfElementInThePage' using 'class org.example.TestImplementation.implementation5"}
 
 ***************************
-Total of JOB with the same atribute are: 24
+Total of JOB with the same atribute are: 25
+null
 null
 null
 null

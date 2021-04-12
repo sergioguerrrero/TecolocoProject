@@ -2,12 +2,14 @@ package org.example;
 
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
+import io.grpc.internal.JsonUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class TestImplementation {
 
@@ -101,7 +103,7 @@ public class TestImplementation {
     @Step("SearchNullJob")
     public void implementation12() {
         WebElement searchBox3 = driver.findElement(By.name("Keywords"));
-        searchBox3.sendKeys("Relaxing");
+        searchBox3.sendKeys("Relaxin");
 
     }
 
@@ -109,6 +111,19 @@ public class TestImplementation {
     public void implementation13() {
         WebElement clickButton3 = driver.findElement(By.id("btnSubmit"));
         clickButton3.click();
+
+    }
+
+    @Step("ValidateResultNull")
+    public  void implementation14() {
+      //String word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
+
+        //System.out.println("Resultado: " + word);
+
+        //Boolean word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).isDisplayed();
+        //Boolean word2  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).isEnabled();
+
+
 
 
     }
