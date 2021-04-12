@@ -123,7 +123,6 @@ public class TestImplementation {
 
         String ActualResult  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
         String ExpectResult = "No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted";
-        //System.out.println("Test: " +ActualResult);
         System.out.println("Expect Result is : " +ExpectResult);
         assertThat(ActualResult).isEqualTo(ExpectResult);
 
