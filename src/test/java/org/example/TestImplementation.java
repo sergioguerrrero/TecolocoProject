@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatNullPointerException;
 
 public class TestImplementation {
 
@@ -22,8 +23,10 @@ public class TestImplementation {
     @Step("NavigateUrl <https://www.irishjobs.ie/>")
     public void implementation1(Object arg0) {
         System.setProperty("webdriver.chrome.driver", "src/resource/chromedriver.exe");
-        driver.get("https://www.irishjobs.ie/");
+        String URL ="https://www.irishjobs.ie/";
+        driver.get(URL);
         driver.manage().window().maximize();
+
     }
 
     @Step("AcceptCooking")
@@ -64,12 +67,9 @@ public class TestImplementation {
 
     @Step("CleanSearch")
     public void implementation7() {
-        //WebElement SeekQaJob = driver.findElement(By.cssSelector("span[class='clearable__clear']"));
+
         WebElement CleanJ = driver.findElement(By.xpath("//span[contains(text(),'×')]"));
         CleanJ.click();
-        //driver.findElement(By.xpath("//input[@id='Keywords']")).clear();
-        //SeekQaJob.sendKeys("QA Specialist");
-
 
     }
 
@@ -120,17 +120,12 @@ public class TestImplementation {
 
     @Step("ValidateResultNull")
     public void  implementation14() {
-      //boolean word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
 
-        //System.out.println("Resultado: " + word);
-
-        String word  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
-        System.out.println("Test: " +word);
-        //String word2  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
-
-        //assertThat(word).isEqualTo("Jobs werer found to matach your criterial");
-         assertThat(word).isEqualTo("No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted");
-
+        String ActualResult  = driver.findElement(By.xpath("//div[contains(text(),'No jobs were found to match your criteria, you can')]")).getText();
+        String ExpectResult = "No jobs were found to match your criteria, you can however save this search as an alert and we will notify you by email as soon as suitable jobs are posted";
+        //System.out.println("Test: " +ActualResult);
+        System.out.println("Expect Result is : " +ExpectResult);
+        assertThat(ActualResult).isEqualTo(ExpectResult);
 
 
     }
